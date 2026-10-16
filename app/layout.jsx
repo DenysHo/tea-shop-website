@@ -1,7 +1,8 @@
 import "./globals.css";
+import { SITE } from "@/lib/site";
 
 export const metadata = {
-  title: "Zentee — Chinese Tea & Tea Ware",
+  title: `${SITE.name} — Chinese Tea & Tea Ware`,
   description:
     "Chinese tea and traditional tea ware, sourced with care and presented with quiet intention.",
 };

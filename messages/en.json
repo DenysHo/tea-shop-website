@@ -1,6 +1,6 @@
 {
   "common": {
-    "brand": { "name": "Zentee", "tagline": "Tea, prepared with intention" },
+    "brand": { "tagline": "Tea, prepared with intention" },
     "nav": {
       "tea": "Tea",
       "teaware": "Tea Ware",
@@ -97,13 +97,18 @@
   "successTitle": "Order received",
   "successBody": "Thank you! Your order #{id} has been placed. Check your email for payment details."
 },
+"contact": {
+  "title": "Contact",
+  "body": "Questions about tea, an order or anything else? Write to us by email or on Instagram.",
+  "email": "Email"
+},
 "privacy": {
   "title": "Privacy Policy",
   "updated": "Last updated: October 2026",
   "sections": [
     {
       "heading": "1. Data controller",
-      "body": "The data controller within the meaning of the General Data Protection Regulation (GDPR) is:\n\n[YOUR NAME]\n[YOUR STREET AND HOUSE NUMBER]\n[YOUR POSTAL CODE AND CITY]\nEmail: [YOUR EMAIL]\n\nIf you have any questions about data protection, you can contact us at the email address above at any time."
+      "body": "The data controller within the meaning of the General Data Protection Regulation (GDPR) is:\n\n[YOUR NAME]\n[YOUR STREET AND HOUSE NUMBER]\n[YOUR POSTAL CODE AND CITY]\nEmail: {email}\n\nIf you have any questions about data protection, you can contact us at the email address above at any time."
     },
     {
       "heading": "2. General information on data processing",
@@ -148,7 +153,7 @@
     },
     {
       "heading": "Contact",
-      "body": "Email: [YOUR EMAIL]\nPhone: [YOUR PHONE NUMBER, optional]"
+      "body": "Email: {email}\nPhone: [YOUR PHONE NUMBER, optional]"
     },
     {
       "heading": "VAT",

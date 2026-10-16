@@ -5,8 +5,8 @@ import { useTranslations } from "next-intl";
 import { Container } from "@/components/foundation/Container";
 import { Heading, BodyText } from "@/components/foundation/Typography";
 import { ButtonExternalLink } from "@/components/foundation/Button";
+import { SITE } from "@/lib/site";
 
-const INSTAGRAM_URL = "https://www.instagram.com/zentee_teehaus/";
 
 const scrollRevealVariants = {
   hidden: { opacity: 0, y: 24 },
@@ -32,7 +32,7 @@ export function CTASection({ title, body }) {
         <Heading size="md">{title}</Heading>
         <BodyText className="mt-4">{body}</BodyText>
         <ButtonExternalLink
-          href={INSTAGRAM_URL}
+          href={SITE.instagram.url}
           variant="primary"
           className="mt-8"
         >

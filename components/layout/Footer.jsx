@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/foundation/Container";
+import { SITE } from "@/lib/site";
 import { Divider } from "@/components/foundation/Divider";
 
 export function Footer() {
@@ -13,13 +14,25 @@ export function Footer() {
         <Divider className="mb-12" />
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           <div>
-            <p className="font-display text-xl text-ink">{t("brand.name")}</p>
+            <p className="font-display text-xl text-ink">{SITE.name}</p>
             <p className="mt-2 max-w-xs font-body text-sm text-stone">
               {t("brand.tagline")}
             </p>
           </div>
 
-          <div className="font-body text-sm text-stone"></div>
+          <div className="flex flex-col gap-2 font-body text-sm text-stone">
+            <a href={`mailto:${SITE.email}`} className="hover:text-ink">
+              {SITE.email}
+            </a>
+            <a
+              href={SITE.instagram.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-ink"
+            >
+              @{SITE.instagram.handle}
+            </a>
+          </div>
 
           <div className="flex flex-col gap-2 font-body text-sm text-stone">
             <Link href="/imprint" className="hover:text-ink">
@@ -32,7 +45,7 @@ export function Footer() {
         </div>
 
         <p className="mt-12 font-body text-xs text-stone">
-          © {year} {t("brand.name")}. {t("footer.rights")}
+          © {year} {SITE.name}. {t("footer.rights")}
         </p>
       </Container>
     </footer>

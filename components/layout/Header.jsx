@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/foundation/Container";
+import { SITE } from "@/lib/site";
 import { LanguageSwitcher } from "@/components/foundation/LanguageSwitcher";
 import CartWidget from "@/components/cart/CartWidget";
 
@@ -19,7 +20,7 @@ export function Header() {
     <header className="border-b border-bamboo/30 bg-paper">
       <Container className="flex items-center justify-between py-6">
         <Link href="/" className="font-display text-2xl tracking-wide text-ink">
-          {t("brand.name")}
+          {SITE.name}
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

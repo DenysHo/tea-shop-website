@@ -1,6 +1,6 @@
 {
   "common": {
-    "brand": { "name": "Zentee", "tagline": "Tee, mit Bedacht zubereitet" },
+    "brand": { "tagline": "Tee, mit Bedacht zubereitet" },
     "nav": {
       "tea": "Tee",
       "teaware": "Teegeschirr",
@@ -97,13 +97,18 @@
   "successTitle": "Bestellung erhalten",
   "successBody": "Danke! Deine Bestellung #{id} wurde aufgegeben. Die Zahlungsdetails folgen per E-Mail."
 },
+"contact": {
+  "title": "Kontakt",
+  "body": "Fragen zu Tee, einer Bestellung oder etwas anderem? Schreiben Sie uns per E-Mail oder auf Instagram.",
+  "email": "E-Mail"
+},
 "privacy": {
   "title": "Datenschutzerklärung",
   "updated": "Stand: Oktober 2026",
   "sections": [
     {
       "heading": "1. Verantwortlicher",
-      "body": "Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:todo\n\n[DEIN NAME]\n[DEINE STRASSE UND HAUSNUMMER]\n[DEINE POSTLEITZAHL UND STADT]\nE-Mail: [DEINE E-MAIL]\n\nBei Fragen zum Datenschutz kannst du dich jederzeit an die oben genannte E-Mail-Adresse wenden."
+      "body": "Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:todo\n\n[DEIN NAME]\n[DEINE STRASSE UND HAUSNUMMER]\n[DEINE POSTLEITZAHL UND STADT]\nE-Mail: {email}\n\nBei Fragen zum Datenschutz kannst du dich jederzeit an die oben genannte E-Mail-Adresse wenden."
     },
     {
       "heading": "2. Allgemeines zur Datenverarbeitung",
@@ -148,7 +153,7 @@
     },
     {
       "heading": "Kontakt",
-      "body": "E-Mail: [DEINE E-MAIL]\nTelefon: [DEINE TELEFONNUMMER, optional]"
+      "body": "E-Mail: {email}\nTelefon: [DEINE TELEFONNUMMER, optional]"
     },
     {
       "heading": "Umsatzsteuer",
