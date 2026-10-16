@@ -7,7 +7,6 @@ import { Heading, BodyText } from "@/components/foundation/Typography";
 import { ButtonExternalLink } from "@/components/foundation/Button";
 import { SITE } from "@/lib/site";
 
-
 const scrollRevealVariants = {
   hidden: { opacity: 0, y: 24 },
   visible: {
