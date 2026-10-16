@@ -1,15 +1,19 @@
+# Qingshan Tea
+
+Website and small online shop for Qingshan Tea: teas, teaware, a cart and checkout, plus an admin panel for products and orders. The site is in English and German.
+
+Built with Next.js 14, Tailwind, next-intl, Prisma + PostgreSQL. Product images are stored in Cloudflare R2.
+
+## Running locally
+
+```bash
 npm install
-cp .env.example .env # заполнить DATABASE_URL, SESSION_SECRET, ADMIN_USERNAME/PASSWORD
+cp .env.example .env
 npm run db:migrate
 npm run db:seed
 npm run dev
+```
 
-## Что ещё не сделано (следующий шаг, если нужно)
+In `.env` you need the database URL, a `SESSION_SECRET` (32+ characters), the admin login and password, and the R2 keys if you want image uploads to work.
 
-- Нет мобильного меню (гамбургер) в шапке сайта — на маленьких экранах
-  ссылки навигации сейчас скрыты без замены.
-- Загрузка реальных изображений (сейчас — поле "Image URLs", просто ссылки;
-  прямой загрузки файлов из админки нет — можно добавить через, например,
-  Vercel Blob или Cloudinary).
-- Нет пагинации в каталогах — при большом количестве товаров стоит добавить.
-- Нет rate-limiting на форму логина.
+`db:seed` creates the admin account and a few sample products. The admin panel is at `/admin`.
