@@ -1,6 +1,6 @@
-# Qingshan Tea
+# Zentee
 
-Website and small online shop for Qingshan Tea: teas, teaware, a cart and checkout, plus an admin panel for products and orders. The site is in English and German.
+Website and small online shop for Zentee : teas, teaware, a cart and checkout, plus an admin panel for products and orders. The site is in English and German.
 
 Built with Next.js 14, Tailwind, next-intl, Prisma + PostgreSQL. Product images are stored in Cloudflare R2.
 
