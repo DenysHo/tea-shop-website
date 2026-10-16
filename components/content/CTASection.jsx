@@ -6,11 +6,15 @@ import { Container } from "@/components/foundation/Container";
 import { Heading, BodyText } from "@/components/foundation/Typography";
 import { ButtonExternalLink } from "@/components/foundation/Button";
 
-const INSTAGRAM_URL = "https://instagram.com/qingshan.tea";
+const INSTAGRAM_URL = "https://www.instagram.com/zentee_teehaus/";
 
 const scrollRevealVariants = {
   hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] } },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] },
+  },
 };
 
 export function CTASection({ title, body }) {
@@ -27,7 +31,11 @@ export function CTASection({ title, body }) {
       >
         <Heading size="md">{title}</Heading>
         <BodyText className="mt-4">{body}</BodyText>
-        <ButtonExternalLink href={INSTAGRAM_URL} variant="primary" className="mt-8">
+        <ButtonExternalLink
+          href={INSTAGRAM_URL}
+          variant="primary"
+          className="mt-8"
+        >
           {t("cta.instagram")}
         </ButtonExternalLink>
       </motion.div>

@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Qingshan — Chinese Tea & Tea Ware",
+  title: "Zentee — Chinese Tea & Tea Ware",
   description:
     "Chinese tea and traditional tea ware, sourced with care and presented with quiet intention.",
 };
@@ -11,13 +11,19 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin=""
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body className="bg-paper text-ink font-body antialiased">{children}</body>
+      <body className="bg-paper text-ink font-body antialiased">
+        {children}
+      </body>
     </html>
   );
 }

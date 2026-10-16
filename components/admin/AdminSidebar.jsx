@@ -4,7 +4,7 @@ import { logoutAction } from "@/app/admin/(protected)/actions";
 export function AdminSidebar({ username }) {
   return (
     <aside className="flex w-56 shrink-0 flex-col border-r border-bamboo/30 bg-paper p-6">
-      <p className="font-display text-xl text-ink">Qingshan</p>
+      <p className="font-display text-xl text-ink">Zentee</p>
       <p className="mt-1 font-body text-xs text-stone">Admin</p>
 
       <nav className="mt-10 flex flex-col gap-3 font-body text-sm">
