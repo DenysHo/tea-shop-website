@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: theme("colors.matcha");
+    color: theme("colors.paper");
+  }
+
+  :focus-visible {
+    outline: 2px solid theme("colors.matcha");
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .label-eyebrow {
+    @apply font-body text-xs uppercase tracking-widest text-stone;
+  }
+
+  .admin-input {
+    @apply w-full border border-bamboo/50 bg-paper px-3 py-2 font-body text-sm text-ink
+           focus:border-matcha focus:outline-none;
+  }
+
+  .admin-label {
+    @apply mb-1 block font-body text-xs uppercase tracking-widest text-stone;
+  }
+}
+
+@keyframes page-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.page-in {
+  animation: page-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-in { animation: none; }
+}

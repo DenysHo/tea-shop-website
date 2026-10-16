@@ -1,0 +1,171 @@
+{
+  "common": {
+    "brand": { "name": "Zentee", "tagline": "Tee, mit Bedacht zubereitet" },
+    "nav": {
+      "tea": "Tee",
+      "teaware": "Teegeschirr",
+      "philosophy": "Philosophie",
+      "order": "Bestellung",
+      "contact": "Kontakt"
+    },
+    "language": { "en": "English", "de": "Deutsch" },
+    "cta": {
+      "instagram": "Schreiben Sie uns auf Instagram",
+      "viewTea": "Tee entdecken",
+      "viewTeaware": "Teegeschirr entdecken"
+    },
+    "footer": {
+      "rights": "Alle Rechte vorbehalten.",
+      "imprint": "Impressum",
+      "privacy": "Datenschutz"
+    },
+    "comingSoon": {
+      "eyebrow": "In Vorbereitung",
+      "body": "Diese Seite wird noch vorbereitet. Schauen Sie bald wieder vorbei oder schreiben Sie uns auf Instagram."
+    },
+    "notFound": {
+      "eyebrow": "Nicht gefunden",
+      "title": "Diese Seite ist verdunstet",
+      "body": "Die gesuchte Seite existiert nicht.",
+      "backHome": "Zurück zur Startseite"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Chinesischer Tee & Teegeschirr",
+      "title": "Der Moment, in dem sich das Blatt öffnet",
+      "subtitle": "Wir beziehen Tee und Zeremonie-Werkzeuge von kleinen Anbauern und Handwerkern und bringen sie unverändert zu Ihnen."
+    },
+    "philosophy": {
+      "eyebrow": "Unsere Haltung",
+      "title": "Langsamkeit ist keine Verzögerung. Sie ist der Sinn.",
+      "body": "Jeder Tee hier wurde gewählt, weil er unsere Aufmerksamkeit gehalten hat. Jede Schale und jede Kanne wurde gewählt, weil sie von jemandem geformt wurde, der Ton noch von Hand bearbeitet."
+    },
+    "featuredTea": { "eyebrow": "Aus dieser Saison", "title": "Tee, der das Warten wert ist" },
+    "featuredTeaware": { "eyebrow": "Von Hand gefertigt", "title": "Werkzeuge für die Zeremonie" },
+    "cta": {
+      "title": "Bereit zu bestellen?",
+      "body": "Wir bearbeiten jede Bestellung persönlich, über Instagram. Erzählen Sie uns, was Sie anspricht."
+    }
+  },
+  "catalog": {
+    "teaTitle": "Tee",
+    "teaSubtitle": "Unsere aktuelle Auswahl — kleine Chargen, saisonal bezogen.",
+    "teawareTitle": "Teegeschirr",
+    "teawareSubtitle": "Zeremonie-Werkzeuge, von Hand gefertigt.",
+    "empty": "Hier gibt es noch nichts — bitte schauen Sie bald wieder vorbei."
+  },
+  "product": {
+    "origin": "Herkunft",
+    "harvest": "Ernte",
+    "caffeineLevel": "Koffein",
+    "flavorNotes": "Geschmacksnoten",
+    "material": "Material",
+    "craftsman": "Handwerker",
+    "capacity": "Fassungsvermögen",
+    "caffeine": { "none": "Keins", "low": "Niedrig", "medium": "Mittel", "high": "Hoch" },
+    "notFound": "Dieser Artikel konnte nicht gefunden werden."
+  },
+  "cart": {
+    "title": "Warenkorb",
+    "empty": "Dein Warenkorb ist leer.",
+    "subtotal": "Zwischensumme",
+    "remove": "Entfernen",
+    "piece": "Stk.",
+    "checkout": "Zur Kasse",
+    "add": "In den Warenkorb",
+    "added": "Hinzugefügt"
+  },
+  "checkout": {
+  "title": "Kasse",
+  "name": "Vollständiger Name",
+  "email": "E-Mail",
+  "phone": "Telefon (optional)",
+  "country": "Land",
+  "postalCode": "Postleitzahl",
+  "city": "Stadt",
+  "street": "Straße",
+  "houseNumber": "Hausnummer",
+  "note": "Anmerkung zur Bestellung (optional)",
+  "consent": "Ich stimme der Verarbeitung meiner Daten gemäß der Datenschutzerklärung zu.",
+  "submit": "Bestellung aufgeben",
+  "submitting": "Bestellung wird aufgegeben…",
+  "empty": "Dein Warenkorb ist leer.",
+  "subtotal": "Zwischensumme",
+  "piece": "Stk.",
+  "paymentNote": "Es wird jetzt nichts abgebucht. Wir senden dir in Kürze die Zahlungsdetails per E-Mail.",
+  "successTitle": "Bestellung erhalten",
+  "successBody": "Danke! Deine Bestellung #{id} wurde aufgegeben. Die Zahlungsdetails folgen per E-Mail."
+},
+"privacy": {
+  "title": "Datenschutzerklärung",
+  "updated": "Stand: Oktober 2026",
+  "sections": [
+    {
+      "heading": "1. Verantwortlicher",
+      "body": "Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:todo\n\n[DEIN NAME]\n[DEINE STRASSE UND HAUSNUMMER]\n[DEINE POSTLEITZAHL UND STADT]\nE-Mail: [DEINE E-MAIL]\n\nBei Fragen zum Datenschutz kannst du dich jederzeit an die oben genannte E-Mail-Adresse wenden."
+    },
+    {
+      "heading": "2. Allgemeines zur Datenverarbeitung",
+      "body": "Wir verarbeiten personenbezogene Daten unserer Nutzer grundsätzlich nur, soweit dies zur Bereitstellung einer funktionsfähigen Website sowie unserer Inhalte und Leistungen erforderlich ist.\n\nDie Verarbeitung personenbezogener Daten erfolgt regelmäßig nur nach Einwilligung des Nutzers (Art. 6 Abs. 1 lit. a DSGVO), zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen (Art. 6 Abs. 1 lit. b DSGVO) oder soweit dies zur Wahrung berechtigter Interessen erforderlich ist (Art. 6 Abs. 1 lit. f DSGVO).\n\nPersonenbezogene Daten werden gelöscht, sobald der Zweck der Speicherung entfällt, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen (z. B. steuer- und handelsrechtliche Aufbewahrungsfristen von bis zu 10 Jahren nach §§ 147 AO, 257 HGB für Bestell- und Rechnungsunterlagen)."
+    },
+    {
+      "heading": "3. Bereitstellung der Website und Erstellung von Logfiles",
+      "body": "Beim Aufrufen unserer Website erhebt unser Hosting-Anbieter automatisch Informationen in sogenannten Server-Logfiles, die dein Browser automatisch übermittelt. Dies sind:\n\n– IP-Adresse\n– Datum und Uhrzeit der Anfrage\n– Inhalt der Anforderung (konkrete Seite)\n– Zugriffsstatus/HTTP-Statuscode\n– Browsertyp und Betriebssystem\n– Referrer-URL\n\nDiese Daten werden nicht mit anderen Datenquellen zusammengeführt. Die Erhebung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO zur technischen Bereitstellung und Absicherung der Website. Die Daten werden nach spätestens [ANZAHL] Tagen automatisch gelöscht.\n\nHosting-Anbieter: [NAME DES HOSTING-ANBIETERS, z. B. Vercel Inc.]. Sofern der Anbieter seinen Sitz außerhalb der EU/des EWR hat, erfolgt die Übermittlung auf Grundlage von Standardvertragsklauseln bzw. eines gleichwertigen Schutzniveaus."
+    },
+    {
+      "heading": "4. Lokaler Speicher (localStorage) für den Warenkorb",
+      "body": "Unser Warenkorb speichert die von dir ausgewählten Artikel technisch notwendig im lokalen Speicher (localStorage) deines Browsers. Diese Daten verlassen dein Gerät nicht und werden nicht an uns übertragen, bis du eine Bestellung abschickst. Da es sich um eine technisch zwingend erforderliche Funktion handelt, ist hierfür keine Einwilligung nach § 25 TTDSG erforderlich.\n\nDu kannst den lokalen Speicher jederzeit über die Einstellungen deines Browsers löschen."
+    },
+    {
+      "heading": "5. Datenverarbeitung bei einer Bestellung",
+      "body": "Wenn du eine Bestellung über unsere Website aufgibst, erheben und verarbeiten wir folgende Daten:\n\n– Name\n– E-Mail-Adresse\n– Telefonnummer (freiwillige Angabe)\n– Lieferadresse (Land, Postleitzahl, Stadt, Straße, Hausnummer)\n– ggf. eine von dir angegebene Anmerkung zur Bestellung\n– Inhalt der Bestellung (ausgewählte Artikel, Menge, Preis)\n\nDie Verarbeitung erfolgt zur Durchführung des Bestellvorgangs und zur Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO). Die Angabe der Telefonnummer ist freiwillig und dient ausschließlich der einfacheren Kontaktaufnahme bei Rückfragen zur Lieferung.\n\nAktuell erfolgt über unsere Website keine Online-Zahlungsabwicklung. Die Zahlungsdetails werden dir im Nachgang per E-Mail mitgeteilt.\n\nDie Bestelldaten werden in einer Datenbank gespeichert, die bei [NAME DES DATENBANK-ANBIETERS] innerhalb der Europäischen Union gehostet wird. Mit dem Anbieter besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO.\n\nBestelldaten werden entsprechend der gesetzlichen Aufbewahrungsfristen (siehe Ziffer 2) gespeichert."
+    },
+    {
+      "heading": "6. Versand von Bestellbestätigungen per E-Mail",
+      "body": "Zum Versand von Bestellbestätigungen und Informationen zur Zahlungsabwicklung nutzen wir [NAME DES E-MAIL-DIENSTLEISTERS, z. B. Resend/Brevo]. Hierzu wird deine E-Mail-Adresse sowie der Inhalt der Bestellung an den genannten Dienstleister übermittelt. Mit dem Anbieter besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO."
+    },
+    {
+      "heading": "7. Speicherung von Produktbildern",
+      "body": "Produktbilder werden über den Dienst Cloudflare R2 (Cloudflare, Inc.) ausgeliefert. Hierbei werden keine personenbezogenen Daten von dir verarbeitet; es handelt sich ausschließlich um die technische Bereitstellung statischer Bilddateien."
+    },
+    {
+      "heading": "8. Deine Rechte als betroffene Person",
+      "body": "Dir stehen folgende Rechte zu:\n\n– Recht auf Auskunft (Art. 15 DSGVO)\n– Recht auf Berichtigung (Art. 16 DSGVO)\n– Recht auf Löschung (Art. 17 DSGVO)\n– Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)\n– Recht auf Datenübertragbarkeit (Art. 20 DSGVO)\n– Widerspruchsrecht gegen die Verarbeitung (Art. 21 DSGVO)\n\nZur Ausübung dieser Rechte genügt eine formlose Mitteilung an die in Ziffer 1 genannte E-Mail-Adresse.\n\nDarüber hinaus hast du das Recht, dich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung deiner personenbezogenen Daten zu beschweren."
+    },
+    {
+      "heading": "9. Änderung dieser Datenschutzerklärung",
+      "body": "Wir behalten uns vor, diese Datenschutzerklärung anzupassen, um sie an geänderte Rechtslagen oder bei Änderungen unseres Angebots anzupassen. Für deinen erneuten Besuch gilt dann die neue Datenschutzerklärung."
+    }
+  ]
+},
+"imprint": {
+  "title": "Impressum",
+  "sections": [
+    {
+      "heading": "Angaben gemäß § 5 TMG / DDG",
+      "body": "[DEIN NAME]\n[DEINE STRASSE UND HAUSNUMMER]\n[DEINE POSTLEITZAHL UND STADT]\nDeutschland"
+    },
+    {
+      "heading": "Kontakt",
+      "body": "E-Mail: [DEINE E-MAIL]\nTelefon: [DEINE TELEFONNUMMER, optional]"
+    },
+    {
+      "heading": "Umsatzsteuer",
+      "body": "Gemäß § 19 Abs. 1 UStG wird keine Umsatzsteuer berechnet, da Kleinunternehmer im Sinne dieser Vorschrift."
+    },
+    {
+      "heading": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
+      "body": "[DEIN NAME]\n[DEINE ANSCHRIFT WIE OBEN]"
+    },
+    {
+      "heading": "EU-Streitschlichtung",
+      "body": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Unsere E-Mail-Adresse findest du oben unter „Kontakt“."
+    },
+    {
+      "heading": "Verbraucherstreitbeilegung",
+      "body": "Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+    }
+  ]
+}
+}
