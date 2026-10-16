@@ -11,7 +11,6 @@ export function Header() {
     { label: t("nav.tea"), href: "/tea" },
     { label: t("nav.teaware"), href: "/teaware" },
     { label: t("nav.philosophy"), href: "/philosophy" },
-    { label: t("nav.order"), href: "/order" },
     { label: t("nav.contact"), href: "/contact" },
   ];
 
