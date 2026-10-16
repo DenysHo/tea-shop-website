@@ -2,14 +2,13 @@
 
 import { useTranslations } from "next-intl";
 import { ButtonExternalLink } from "@/components/foundation/Button";
-
-const INSTAGRAM_URL = "https://www.instagram.com/zentee_teehaus";
+import { SITE } from "@/lib/site";
 
 export function InstagramCTAButton({ variant = "ghost", className = "" }) {
   const t = useTranslations("common");
   return (
     <ButtonExternalLink
-      href={INSTAGRAM_URL}
+      href={SITE.instagram.url}
       variant={variant}
       className={className}
     >

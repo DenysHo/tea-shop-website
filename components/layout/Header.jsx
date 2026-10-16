@@ -18,7 +18,7 @@ export function Header() {
     <header className="border-b border-bamboo/30 bg-paper">
       <Container className="flex items-center justify-between py-6">
         <Link href="/" className="font-display text-2xl tracking-wide text-ink">
-          {t("brand.name")}
+          {SITE.name}
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

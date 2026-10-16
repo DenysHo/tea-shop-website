@@ -1,3 +1,5 @@
+import { SITE } from "@/lib/site";
+4;
 export const metadata = {
   title: "Admin — Zentee",
 };

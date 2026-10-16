@@ -1,6 +1,6 @@
 {
   "common": {
-    "brand": { "name": "Zentee", "tagline": "Tee, mit Bedacht zubereitet" },
+    "brand": { "tagline": "Tee, mit Bedacht zubereitet" },
     "nav": {
       "tea": "Tee",
       "teaware": "Teegeschirr",

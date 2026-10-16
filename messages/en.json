@@ -1,6 +1,6 @@
 {
   "common": {
-    "brand": { "name": "Zentee", "tagline": "Tea, prepared with intention" },
+    "brand": { "tagline": "Tea, prepared with intention" },
     "nav": {
       "tea": "Tea",
       "teaware": "Tea Ware",
