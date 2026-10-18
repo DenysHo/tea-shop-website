@@ -144,6 +144,53 @@ export function TeaWareForm({ item }) {
 
       <ImagesField images={item?.images} />
 
+      <fieldset className="mb-5">
+        <legend className="admin-label mb-2">Product safety (GPSR)</legend>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <div>
+            <label className="admin-label" htmlFor="manufacturer">
+              Manufacturer
+            </label>
+            <input
+              id="manufacturer"
+              name="manufacturer"
+              defaultValue={item?.manufacturer ?? ""}
+              className="admin-input"
+              placeholder="Workshop name"
+            />
+          </div>
+          <div>
+            <label className="admin-label" htmlFor="itemNumber">
+              Item number / batch
+            </label>
+            <input
+              id="itemNumber"
+              name="itemNumber"
+              defaultValue={item?.itemNumber ?? ""}
+              className="admin-input"
+              placeholder="ZT-GW-001"
+            />
+          </div>
+        </div>
+        <div className="mt-4">
+          <label className="admin-label" htmlFor="manufacturerContact">
+            Manufacturer address and email or website
+          </label>
+          <textarea
+            id="manufacturerContact"
+            name="manufacturerContact"
+            rows={3}
+            defaultValue={item?.manufacturerContact ?? ""}
+            className="admin-input"
+          />
+        </div>
+      </fieldset>
+
+      <TranslatedField
+        name="warnings"
+        label="Warnings (e.g. Not microwave safe. Hand wash only.)"
+        defaultValue={item ? asTranslated(item.warnings) : undefined}
+      />
       <AdminSubmitButton label={item ? "Save changes" : "Create tea ware"} />
     </form>
   );

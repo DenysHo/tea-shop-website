@@ -10,6 +10,7 @@ import { asTranslated, resolveTranslated } from "@/lib/types";
 import ImageGallery from "@/components/product/ImageGallery";
 import PriceTag from "@/components/product/PriceTag";
 import AddToCartButton from "@/components/product/AddToCartButton";
+import ProductSafety from "@/components/product/ProductSafety";
 
 export default async function TeaWareDetailPage({ params: { locale, slug } }) {
   unstable_setRequestLocale(locale);
@@ -88,6 +89,8 @@ export default async function TeaWareDetailPage({ params: { locale, slug } }) {
             </dl>
 
             <BodyText className="mt-8">{description}</BodyText>
+
+            <ProductSafety item={item} locale={locale} />
 
             <div className="mt-5">
               <AddToCartButton

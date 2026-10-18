@@ -20,6 +20,9 @@ model Tea {
   description      Json
   origin           Json
   flavorNotes      Json
+  legalName        Json     @default("{}")
+  ingredients      Json     @default("{}")
+  allergens        Json     @default("{}")
   images           String[]
   priceCents       Int @default(0)
   saleUnitGrams    Int @default(0)
@@ -40,11 +43,16 @@ model TeaWare {
   origin           Json
   craftsman        Json?
   capacityMl       Int?
+  manufacturer     String   @default("")
+  manufacturerContact String @default("")
+  itemNumber       String   @default("")
+  warnings         Json     @default("{}")
   images           String[]
   priceCents       Int @default(0)
   pieceCount       Int      @default(1)
   createdAt        DateTime @default(now())
   updatedAt        DateTime @updatedAt
+  
 }
 
 model AdminUser {

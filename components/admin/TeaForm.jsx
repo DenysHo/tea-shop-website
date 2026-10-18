@@ -204,6 +204,22 @@ export function TeaForm({ tea }) {
         </div>
       </fieldset>
 
+      <TranslatedField
+        name="legalName"
+        label="Legal name (e.g. Grüner Tee, Oolong-Tee)"
+        defaultValue={tea ? asTranslated(tea.legalName) : undefined}
+      />
+      <TranslatedField
+        name="ingredients"
+        label="Ingredients (e.g. 100 % grüner Tee)"
+        defaultValue={tea ? asTranslated(tea.ingredients) : undefined}
+      />
+      <TranslatedField
+        name="allergens"
+        label="Allergens (empty = none)"
+        defaultValue={tea ? asTranslated(tea.allergens) : undefined}
+      />
+
       <ImagesField images={tea?.images} />
 
       <AdminSubmitButton label={tea ? "Save changes" : "Create tea"} />

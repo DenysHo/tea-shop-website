@@ -82,7 +82,26 @@
       "medium": "Medium",
       "high": "High"
     },
-    "notFound": "This item could not be found."
+    "notFound": "This item could not be found.",
+    "foodInfo": {
+      "title": "Produktinformationen",
+      "legalName": "Bezeichnung",
+      "ingredients": "Zutaten",
+      "allergens": "Allergene",
+      "noAllergens": "Keine",
+      "netWeight": "Füllmenge",
+      "origin": "Ursprungsland",
+      "storage": "Lagerung",
+      "storageText": "Kühl, trocken und lichtgeschützt lagern.",
+      "operator": "Lebensmittelunternehmer"
+    },
+    "safety": {
+      "title": "Product safety",
+      "manufacturer": "Manufacturer",
+      "itemNumber": "Item number",
+      "responsible": "Responsible person in the EU",
+      "warnings": "Warnings"
+    }
   },
   "cart": {
     "title": "Cart",

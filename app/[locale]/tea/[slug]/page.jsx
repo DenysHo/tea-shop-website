@@ -10,6 +10,7 @@ import Image from "@/components/product/Image";
 import ImageGallery from "@/components/product/ImageGallery";
 import PriceTag from "@/components/product/PriceTag";
 import AddToCartButton from "@/components/product/AddToCartButton";
+import FoodInfo from "@/components/product/FoodInfo";
 import {
   asTranslated,
   asTranslatedArray,
@@ -88,6 +89,8 @@ export default async function TeaDetailPage({ params: { locale, slug } }) {
             </dl>
 
             <BodyText className="mt-8">{description}</BodyText>
+
+            <FoodInfo tea={tea} locale={locale} />
 
             <div className="mt-5">
               <AddToCartButton
