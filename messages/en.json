@@ -16,7 +16,8 @@
     "footer": {
       "rights": "All rights reserved.",
       "imprint": "Imprint",
-      "privacy": "Privacy Policy"
+      "privacy": "Privacy Policy",
+      "withdrawal": "Right of withdrawal"
     },
     "comingSoon": {
       "eyebrow": "Coming soon",
@@ -102,6 +103,23 @@
   "title": "Contact",
   "body": "Questions about tea, an order or anything else? Write to us by email or on Instagram.",
   "email": "Email"
+},
+"withdrawal": {
+  "title": "Right of Withdrawal",
+  "sections": [
+    {
+      "heading": "Right of withdrawal",
+      "body": "You have the right to withdraw from this contract within fourteen days without giving any reason.\n\nThe withdrawal period is fourteen days from the day on which you, or a third party named by you who is not the carrier, take possession of the goods.\n\nTo exercise your right of withdrawal, you must inform us\n\n[YOUR NAME]\n[YOUR STREET AND HOUSE NUMBER]\n[YOUR POSTAL CODE AND CITY]\nGermany\nEmail: {email}\n\nby means of a clear statement (e.g. a letter sent by post or an email) of your decision to withdraw from this contract. You may use the model withdrawal form below, but this is not required.\n\nTo meet the withdrawal deadline, it is sufficient for you to send your notice before the withdrawal period has expired."
+    },
+    {
+      "heading": "Effects of withdrawal",
+      "body": "If you withdraw from this contract, we will refund all payments received from you, including delivery costs (except for any additional costs resulting from your choice of a delivery type other than the cheapest standard delivery offered by us), without undue delay and in any event no later than fourteen days from the day on which we receive notice of your withdrawal. We will use the same means of payment that you used for the original transaction, unless expressly agreed otherwise with you; in no case will you be charged any fees for this refund.\n\nWe may withhold the refund until we have received the goods back or until you have supplied proof that you have sent them back, whichever is earlier.\n\nYou must send back or hand over the goods to us without undue delay and in any event no later than fourteen days from the day on which you inform us of your withdrawal. The deadline is met if you send the goods before the period of fourteen days has expired.\n\nYou bear the direct costs of returning the goods.\n\nYou are only liable for any loss in value of the goods if this results from handling them in a way that is not necessary to check their nature, characteristics and functioning."
+    },
+    {
+      "heading": "Model withdrawal form",
+      "body": "(Complete and return this form only if you wish to withdraw from the contract.)\n\nTo:\n[YOUR NAME]\n[YOUR STREET AND HOUSE NUMBER]\n[YOUR POSTAL CODE AND CITY]\nGermany\nEmail: {email}\n\nI/We (*) hereby withdraw from the contract concluded by me/us (*) for the purchase of the following goods (*):\n\n_______________________\n\nOrdered on (*) / received on (*):\nName of consumer(s):\nAddress of consumer(s):\nSignature of consumer(s) (only if this form is sent on paper):\nDate:\n\n(*) Delete as appropriate.\n\nThe German version of this notice is legally binding."
+    }
+  ]
 },
 "privacy": {
   "title": "Privacy Policy",

@@ -41,6 +41,9 @@ export function Footer() {
             <Link href="/privacy" className="hover:text-ink">
               {t("footer.privacy")}
             </Link>
+            <Link href="/withdrawal" className="hover:text-ink">
+              {t("footer.withdrawal")}
+            </Link>
           </div>
         </div>
 
