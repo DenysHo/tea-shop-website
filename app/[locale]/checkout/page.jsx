@@ -271,6 +271,9 @@ export default function CheckoutPage() {
               <span>{t("subtotal")}</span>
               <span>{formatMoney(totalCents, locale)}</span>
             </div>
+            <p className="mt-1 text-right text-xs text-stone">
+              {t("shippingNote")}
+            </p>
           </div>
         </div>
       </Container>
