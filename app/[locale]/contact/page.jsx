@@ -44,4 +44,3 @@ export default async function ContactPage({ params: { locale } }) {
     </Section>
   );
 }
-ы;

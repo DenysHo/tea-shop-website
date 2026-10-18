@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/foundation/Container";
 import { LanguageSwitcher } from "@/components/foundation/LanguageSwitcher";
 import CartWidget from "@/components/cart/CartWidget";
+import { SITE } from "@/lib/site";
 
 export function Header() {
   const t = useTranslations("common");

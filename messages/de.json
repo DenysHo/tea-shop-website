@@ -96,6 +96,11 @@
   "successTitle": "Bestellung erhalten",
   "successBody": "Danke! Deine Bestellung #{id} wurde aufgegeben. Die Zahlungsdetails folgen per E-Mail."
 },
+"contact": {
+  "title": "Kontakt",
+  "body": "Fragen zu Tee, einer Bestellung oder etwas anderem? Schreiben Sie uns per E-Mail oder auf Instagram.",
+  "email": "E-Mail"
+},
 "privacy": {
   "title": "Datenschutzerklärung",
   "updated": "Stand: Oktober 2026",

@@ -96,6 +96,11 @@
   "successTitle": "Order received",
   "successBody": "Thank you! Your order #{id} has been placed. Check your email for payment details."
 },
+"contact": {
+  "title": "Contact",
+  "body": "Questions about tea, an order or anything else? Write to us by email or on Instagram.",
+  "email": "Email"
+},
 "privacy": {
   "title": "Privacy Policy",
   "updated": "Last updated: October 2026",
