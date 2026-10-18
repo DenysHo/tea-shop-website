@@ -149,7 +149,7 @@
   "title": "Legal Notice",
   "sections": [
     {
-      "heading": "Information pursuant to § 5 TMG / DDG",
+      "heading": "Information pursuant to § 5 DDG",
       "body": "[YOUR NAME]\n[YOUR STREET AND HOUSE NUMBER]\n[YOUR POSTAL CODE AND CITY]\nGermany"
     },
     {
@@ -163,10 +163,6 @@
     {
       "heading": "Responsible for content pursuant to § 18 (2) MStV",
       "body": "[YOUR NAME]\n[YOUR ADDRESS AS ABOVE]"
-    },
-    {
-      "heading": "EU dispute resolution",
-      "body": "The European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/consumers/odr/. Our email address can be found above under \"Contact\"."
     },
     {
       "heading": "Consumer dispute resolution",
