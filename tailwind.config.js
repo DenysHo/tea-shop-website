@@ -15,8 +15,8 @@ module.exports = {
         "ink-dark": "#15130F",
       },
       fontFamily: {
-        display: ["\"Cormorant Garamond\"", "serif"],
-        body: ["Inter", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "serif"],
+        body: ["var(--font-body)", "system-ui", "sans-serif"],
       },
       letterSpacing: {
         wide: "0.08em",
