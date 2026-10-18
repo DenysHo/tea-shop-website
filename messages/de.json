@@ -1,13 +1,19 @@
 {
   "common": {
-    "brand": { "tagline": "Tee, mit Bedacht zubereitet" },
+    "brand": {
+      "tagline": "Tee, mit Bedacht zubereitet"
+    },
     "nav": {
       "tea": "Tee",
       "teaware": "Teegeschirr",
       "philosophy": "Philosophie",
+      "order": "Bestellung",
       "contact": "Kontakt"
     },
-    "language": { "en": "English", "de": "Deutsch" },
+    "language": {
+      "en": "English",
+      "de": "Deutsch"
+    },
     "cta": {
       "instagram": "Schreiben Sie uns auf Instagram",
       "viewTea": "Tee entdecken",
@@ -41,8 +47,14 @@
       "title": "Langsamkeit ist keine Verzögerung. Sie ist der Sinn.",
       "body": "Jeder Tee hier wurde gewählt, weil er unsere Aufmerksamkeit gehalten hat. Jede Schale und jede Kanne wurde gewählt, weil sie von jemandem geformt wurde, der Ton noch von Hand bearbeitet."
     },
-    "featuredTea": { "eyebrow": "Aus dieser Saison", "title": "Tee, der das Warten wert ist" },
-    "featuredTeaware": { "eyebrow": "Von Hand gefertigt", "title": "Werkzeuge für die Zeremonie" },
+    "featuredTea": {
+      "eyebrow": "Aus dieser Saison",
+      "title": "Tee, der das Warten wert ist"
+    },
+    "featuredTeaware": {
+      "eyebrow": "Von Hand gefertigt",
+      "title": "Werkzeuge für die Zeremonie"
+    },
     "cta": {
       "title": "Bereit zu bestellen?",
       "body": "Wir bearbeiten jede Bestellung persönlich, über Instagram. Erzählen Sie uns, was Sie anspricht."
@@ -64,7 +76,12 @@
     "material": "Material",
     "craftsman": "Handwerker",
     "capacity": "Fassungsvermögen",
-    "caffeine": { "none": "Keins", "low": "Niedrig", "medium": "Mittel", "high": "Hoch" },
+    "caffeine": {
+      "none": "Keins",
+      "low": "Niedrig",
+      "medium": "Mittel",
+      "high": "Hoch"
+    },
     "notFound": "Dieser Artikel konnte nicht gefunden werden."
   },
   "cart": {
@@ -78,114 +95,114 @@
     "added": "Hinzugefügt"
   },
   "checkout": {
-  "title": "Kasse",
-  "name": "Vollständiger Name",
-  "email": "E-Mail",
-  "phone": "Telefon (optional)",
-  "country": "Land",
-  "postalCode": "Postleitzahl",
-  "city": "Stadt",
-  "street": "Straße",
-  "houseNumber": "Hausnummer",
-  "note": "Anmerkung zur Bestellung (optional)",
-  "consent": "Ich stimme der Verarbeitung meiner Daten gemäß der Datenschutzerklärung zu.",
-  "submit": "Zahlungspflichtig bestellen",
-  "submitting": "Bestellung wird gesendet…",
-  "shippingNote": "zzgl. Versandkosten",
-  "empty": "Dein Warenkorb ist leer.",
-  "subtotal": "Zwischensumme",
-  "piece": "Stk.",
-  "paymentNote": "Es wird jetzt nichts abgebucht. Wir senden dir in Kürze die Zahlungsdetails per E-Mail.",
-  "successTitle": "Bestellung erhalten",
-  "successBody": "Danke! Deine Bestellung #{id} wurde aufgegeben. Die Zahlungsdetails folgen per E-Mail."
-},
-"contact": {
-  "title": "Kontakt",
-  "body": "Fragen zu Tee, einer Bestellung oder etwas anderem? Schreiben Sie uns per E-Mail oder auf Instagram.",
-  "email": "E-Mail"
-},
-"withdrawal": {
-  "title": "Widerrufsbelehrung",
-  "sections": [
-    {
-      "heading": "Widerrufsrecht",
-      "body": "Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.\n\nDie Widerrufsfrist beträgt vierzehn Tage ab dem Tag, an dem Sie oder ein von Ihnen benannter Dritter, der nicht der Beförderer ist, die Waren in Besitz genommen haben bzw. hat.\n\nUm Ihr Widerrufsrecht auszuüben, müssen Sie uns\n\n[DEIN NAME]\n[DEINE STRASSE UND HAUSNUMMER]\n[DEINE POSTLEITZAHL UND STADT]\nDeutschland\nE-Mail: {email}\n\nmittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder eine E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das unten stehende Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist.\n\nZur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden."
-    },
-    {
-      "heading": "Folgen des Widerrufs",
-      "body": "Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, einschließlich der Lieferkosten (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass Sie eine andere Art der Lieferung als die von uns angebotene, günstigste Standardlieferung gewählt haben), unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.\n\nWir können die Rückzahlung verweigern, bis wir die Waren wieder zurückerhalten haben oder bis Sie den Nachweis erbracht haben, dass Sie die Waren zurückgesandt haben, je nachdem, welches der frühere Zeitpunkt ist.\n\nSie haben die Waren unverzüglich und in jedem Fall spätestens binnen vierzehn Tagen ab dem Tag, an dem Sie uns über den Widerruf dieses Vertrags unterrichten, an uns zurückzusenden oder zu übergeben. Die Frist ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von vierzehn Tagen absenden.\n\nSie tragen die unmittelbaren Kosten der Rücksendung der Waren.\n\nSie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang mit ihnen zurückzuführen ist."
-    },
-    {
-      "heading": "Muster-Widerrufsformular",
-      "body": "(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück.)\n\nAn:\n[DEIN NAME]\n[DEINE STRASSE UND HAUSNUMMER]\n[DEINE POSTLEITZAHL UND STADT]\nDeutschland\nE-Mail: {email}\n\nHiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über den Kauf der folgenden Waren (*):\n\n_______________________\n\nBestellt am (*) / erhalten am (*):\nName des/der Verbraucher(s):\nAnschrift des/der Verbraucher(s):\nUnterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier):\nDatum:\n\n(*) Unzutreffendes streichen."
-    }
-  ]
-},
-"privacy": {
-  "title": "Datenschutzerklärung",
-  "updated": "Stand: Oktober 2026",
-  "sections": [
-    {
-      "heading": "1. Verantwortlicher",
-      "body": "Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:todo\n\n[DEIN NAME]\n[DEINE STRASSE UND HAUSNUMMER]\n[DEINE POSTLEITZAHL UND STADT]\nE-Mail: [DEINE E-MAIL]\n\nBei Fragen zum Datenschutz kannst du dich jederzeit an die oben genannte E-Mail-Adresse wenden."
-    },
-    {
-      "heading": "2. Allgemeines zur Datenverarbeitung",
-      "body": "Wir verarbeiten personenbezogene Daten unserer Nutzer grundsätzlich nur, soweit dies zur Bereitstellung einer funktionsfähigen Website sowie unserer Inhalte und Leistungen erforderlich ist.\n\nDie Verarbeitung personenbezogener Daten erfolgt regelmäßig nur nach Einwilligung des Nutzers (Art. 6 Abs. 1 lit. a DSGVO), zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen (Art. 6 Abs. 1 lit. b DSGVO) oder soweit dies zur Wahrung berechtigter Interessen erforderlich ist (Art. 6 Abs. 1 lit. f DSGVO).\n\nPersonenbezogene Daten werden gelöscht, sobald der Zweck der Speicherung entfällt, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen (z. B. steuer- und handelsrechtliche Aufbewahrungsfristen von bis zu 10 Jahren nach §§ 147 AO, 257 HGB für Bestell- und Rechnungsunterlagen)."
-    },
-    {
-      "heading": "3. Bereitstellung der Website und Erstellung von Logfiles",
-      "body": "Beim Aufrufen unserer Website erhebt unser Hosting-Anbieter automatisch Informationen in sogenannten Server-Logfiles, die dein Browser automatisch übermittelt. Dies sind:\n\n– IP-Adresse\n– Datum und Uhrzeit der Anfrage\n– Inhalt der Anforderung (konkrete Seite)\n– Zugriffsstatus/HTTP-Statuscode\n– Browsertyp und Betriebssystem\n– Referrer-URL\n\nDiese Daten werden nicht mit anderen Datenquellen zusammengeführt. Die Erhebung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO zur technischen Bereitstellung und Absicherung der Website. Die Daten werden nach spätestens [ANZAHL] Tagen automatisch gelöscht.\n\nHosting-Anbieter: [NAME DES HOSTING-ANBIETERS, z. B. Vercel Inc.]. Sofern der Anbieter seinen Sitz außerhalb der EU/des EWR hat, erfolgt die Übermittlung auf Grundlage von Standardvertragsklauseln bzw. eines gleichwertigen Schutzniveaus."
-    },
-    {
-      "heading": "4. Lokaler Speicher (localStorage) für den Warenkorb",
-      "body": "Unser Warenkorb speichert die von dir ausgewählten Artikel technisch notwendig im lokalen Speicher (localStorage) deines Browsers. Diese Daten verlassen dein Gerät nicht und werden nicht an uns übertragen, bis du eine Bestellung abschickst. Da es sich um eine technisch zwingend erforderliche Funktion handelt, ist hierfür keine Einwilligung nach § 25 TTDSG erforderlich.\n\nDu kannst den lokalen Speicher jederzeit über die Einstellungen deines Browsers löschen."
-    },
-    {
-      "heading": "5. Datenverarbeitung bei einer Bestellung",
-      "body": "Wenn du eine Bestellung über unsere Website aufgibst, erheben und verarbeiten wir folgende Daten:\n\n– Name\n– E-Mail-Adresse\n– Telefonnummer (freiwillige Angabe)\n– Lieferadresse (Land, Postleitzahl, Stadt, Straße, Hausnummer)\n– ggf. eine von dir angegebene Anmerkung zur Bestellung\n– Inhalt der Bestellung (ausgewählte Artikel, Menge, Preis)\n\nDie Verarbeitung erfolgt zur Durchführung des Bestellvorgangs und zur Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO). Die Angabe der Telefonnummer ist freiwillig und dient ausschließlich der einfacheren Kontaktaufnahme bei Rückfragen zur Lieferung.\n\nAktuell erfolgt über unsere Website keine Online-Zahlungsabwicklung. Die Zahlungsdetails werden dir im Nachgang per E-Mail mitgeteilt.\n\nDie Bestelldaten werden in einer Datenbank gespeichert, die bei [NAME DES DATENBANK-ANBIETERS] innerhalb der Europäischen Union gehostet wird. Mit dem Anbieter besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO.\n\nBestelldaten werden entsprechend der gesetzlichen Aufbewahrungsfristen (siehe Ziffer 2) gespeichert."
-    },
-    {
-      "heading": "6. Versand von Bestellbestätigungen per E-Mail",
-      "body": "Zum Versand von Bestellbestätigungen und Informationen zur Zahlungsabwicklung nutzen wir [NAME DES E-MAIL-DIENSTLEISTERS, z. B. Resend/Brevo]. Hierzu wird deine E-Mail-Adresse sowie der Inhalt der Bestellung an den genannten Dienstleister übermittelt. Mit dem Anbieter besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO."
-    },
-    {
-      "heading": "7. Speicherung von Produktbildern",
-      "body": "Produktbilder werden über den Dienst Cloudflare R2 (Cloudflare, Inc.) ausgeliefert. Hierbei werden keine personenbezogenen Daten von dir verarbeitet; es handelt sich ausschließlich um die technische Bereitstellung statischer Bilddateien."
-    },
-    {
-      "heading": "8. Deine Rechte als betroffene Person",
-      "body": "Dir stehen folgende Rechte zu:\n\n– Recht auf Auskunft (Art. 15 DSGVO)\n– Recht auf Berichtigung (Art. 16 DSGVO)\n– Recht auf Löschung (Art. 17 DSGVO)\n– Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)\n– Recht auf Datenübertragbarkeit (Art. 20 DSGVO)\n– Widerspruchsrecht gegen die Verarbeitung (Art. 21 DSGVO)\n\nZur Ausübung dieser Rechte genügt eine formlose Mitteilung an die in Ziffer 1 genannte E-Mail-Adresse.\n\nDarüber hinaus hast du das Recht, dich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung deiner personenbezogenen Daten zu beschweren."
-    },
-    {
-      "heading": "9. Änderung dieser Datenschutzerklärung",
-      "body": "Wir behalten uns vor, diese Datenschutzerklärung anzupassen, um sie an geänderte Rechtslagen oder bei Änderungen unseres Angebots anzupassen. Für deinen erneuten Besuch gilt dann die neue Datenschutzerklärung."
-    }
-  ]
-},
-"imprint": {
-  "title": "Impressum",
-  "sections": [
-    {
-      "heading": "Angaben gemäß § 5 DDG",
-      "body": "todo[DEIN NAME]\n[DEINE STRASSE UND HAUSNUMMER]\n[DEINE POSTLEITZAHL UND STADT]\nDeutschland"
-    },
-    {
-      "heading": "Kontakt",
-      "body": "E-Mail: [DEINE E-MAIL]\nTelefon: [DEINE TELEFONNUMMER, optional]"
-    },
-    {
-      "heading": "Umsatzsteuer",
-      "body": "Gemäß § 19 Abs. 1 UStG wird keine Umsatzsteuer berechnet, da Kleinunternehmer im Sinne dieser Vorschrift."
-    },
-    {
-      "heading": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
-      "body": "[DEIN NAME]\n[DEINE ANSCHRIFT WIE OBEN]"
-    },
-    {
-      "heading": "Verbraucherstreitbeilegung",
-      "body": "Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
-    }
-  ]
-}
+    "title": "Kasse",
+    "name": "Vollständiger Name",
+    "email": "E-Mail",
+    "phone": "Telefon (optional)",
+    "country": "Land",
+    "postalCode": "Postleitzahl",
+    "city": "Stadt",
+    "street": "Straße",
+    "houseNumber": "Hausnummer",
+    "note": "Anmerkung zur Bestellung (optional)",
+    "consent": "Ich stimme der Verarbeitung meiner Daten gemäß der Datenschutzerklärung zu.",
+    "submit": "Zahlungspflichtig bestellen",
+    "submitting": "Bestellung wird gesendet…",
+    "empty": "Dein Warenkorb ist leer.",
+    "subtotal": "Zwischensumme",
+    "piece": "Stk.",
+    "paymentNote": "Es wird jetzt nichts abgebucht. Wir senden dir in Kürze die Zahlungsdetails per E-Mail.",
+    "successTitle": "Bestellung erhalten",
+    "successBody": "Danke! Deine Bestellung #{id} wurde aufgegeben. Die Zahlungsdetails folgen per E-Mail.",
+    "shippingNote": "zzgl. Versandkosten"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "body": "Fragen zu Tee, einer Bestellung oder etwas anderem? Schreiben Sie uns per E-Mail oder auf Instagram.",
+    "email": "E-Mail"
+  },
+  "withdrawal": {
+    "title": "Widerrufsbelehrung",
+    "sections": [
+      {
+        "heading": "Widerrufsrecht",
+        "body": "Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.\n\nDie Widerrufsfrist beträgt vierzehn Tage ab dem Tag, an dem Sie oder ein von Ihnen benannter Dritter, der nicht der Beförderer ist, die Waren in Besitz genommen haben bzw. hat.\n\nUm Ihr Widerrufsrecht auszuüben, müssen Sie uns\n\n{owner}\n{street}\n{city}\nDeutschland\nE-Mail: {email}\n\nmittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder eine E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das unten stehende Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist.\n\nZur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden."
+      },
+      {
+        "heading": "Folgen des Widerrufs",
+        "body": "Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, einschließlich der Lieferkosten (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass Sie eine andere Art der Lieferung als die von uns angebotene, günstigste Standardlieferung gewählt haben), unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.\n\nWir können die Rückzahlung verweigern, bis wir die Waren wieder zurückerhalten haben oder bis Sie den Nachweis erbracht haben, dass Sie die Waren zurückgesandt haben, je nachdem, welches der frühere Zeitpunkt ist.\n\nSie haben die Waren unverzüglich und in jedem Fall spätestens binnen vierzehn Tagen ab dem Tag, an dem Sie uns über den Widerruf dieses Vertrags unterrichten, an uns zurückzusenden oder zu übergeben. Die Frist ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von vierzehn Tagen absenden.\n\nSie tragen die unmittelbaren Kosten der Rücksendung der Waren.\n\nSie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang mit ihnen zurückzuführen ist."
+      },
+      {
+        "heading": "Muster-Widerrufsformular",
+        "body": "(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück.)\n\nAn:\n{owner}\n{street}\n{city}\nDeutschland\nE-Mail: {email}\n\nHiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über den Kauf der folgenden Waren (*):\n\n_______________________\n\nBestellt am (*) / erhalten am (*):\nName des/der Verbraucher(s):\nAnschrift des/der Verbraucher(s):\nUnterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier):\nDatum:\n\n(*) Unzutreffendes streichen."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "updated": "Stand: Oktober 2026",
+    "sections": [
+      {
+        "heading": "1. Verantwortlicher",
+        "body": "Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:\n\n{owner}\n{street}\n{city}\nE-Mail: {email}\n\nBei Fragen zum Datenschutz kannst du dich jederzeit an die oben genannte E-Mail-Adresse wenden."
+      },
+      {
+        "heading": "2. Allgemeines zur Datenverarbeitung",
+        "body": "Wir verarbeiten personenbezogene Daten unserer Nutzer grundsätzlich nur, soweit dies zur Bereitstellung einer funktionsfähigen Website sowie unserer Inhalte und Leistungen erforderlich ist.\n\nDie Verarbeitung personenbezogener Daten erfolgt regelmäßig nur nach Einwilligung des Nutzers (Art. 6 Abs. 1 lit. a DSGVO), zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen (Art. 6 Abs. 1 lit. b DSGVO) oder soweit dies zur Wahrung berechtigter Interessen erforderlich ist (Art. 6 Abs. 1 lit. f DSGVO).\n\nPersonenbezogene Daten werden gelöscht, sobald der Zweck der Speicherung entfällt, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen (z. B. steuer- und handelsrechtliche Aufbewahrungsfristen von bis zu 10 Jahren nach §§ 147 AO, 257 HGB für Bestell- und Rechnungsunterlagen)."
+      },
+      {
+        "heading": "3. Bereitstellung der Website und Erstellung von Logfiles",
+        "body": "Beim Aufrufen unserer Website erhebt unser Hosting-Anbieter automatisch Informationen in sogenannten Server-Logfiles, die dein Browser automatisch übermittelt. Dies sind:\n\n– IP-Adresse\n– Datum und Uhrzeit der Anfrage\n– Inhalt der Anforderung (konkrete Seite)\n– Zugriffsstatus/HTTP-Statuscode\n– Browsertyp und Betriebssystem\n– Referrer-URL\n\nDiese Daten werden nicht mit anderen Datenquellen zusammengeführt. Die Erhebung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO zur technischen Bereitstellung und Absicherung der Website. Die Daten werden nach spätestens {logDays} Tagen automatisch gelöscht.\n\nHosting-Anbieter: {hosting}. Sofern der Anbieter seinen Sitz außerhalb der EU/des EWR hat, erfolgt die Übermittlung auf Grundlage von Standardvertragsklauseln bzw. eines gleichwertigen Schutzniveaus."
+      },
+      {
+        "heading": "4. Lokaler Speicher (localStorage) für den Warenkorb",
+        "body": "Unser Warenkorb speichert die von dir ausgewählten Artikel technisch notwendig im lokalen Speicher (localStorage) deines Browsers. Diese Daten verlassen dein Gerät nicht und werden nicht an uns übertragen, bis du eine Bestellung abschickst. Da es sich um eine technisch zwingend erforderliche Funktion handelt, ist hierfür keine Einwilligung nach § 25 TTDSG erforderlich.\n\nDu kannst den lokalen Speicher jederzeit über die Einstellungen deines Browsers löschen."
+      },
+      {
+        "heading": "5. Datenverarbeitung bei einer Bestellung",
+        "body": "Wenn du eine Bestellung über unsere Website aufgibst, erheben und verarbeiten wir folgende Daten:\n\n– Name\n– E-Mail-Adresse\n– Telefonnummer (freiwillige Angabe)\n– Lieferadresse (Land, Postleitzahl, Stadt, Straße, Hausnummer)\n– ggf. eine von dir angegebene Anmerkung zur Bestellung\n– Inhalt der Bestellung (ausgewählte Artikel, Menge, Preis)\n\nDie Verarbeitung erfolgt zur Durchführung des Bestellvorgangs und zur Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO). Die Angabe der Telefonnummer ist freiwillig und dient ausschließlich der einfacheren Kontaktaufnahme bei Rückfragen zur Lieferung.\n\nAktuell erfolgt über unsere Website keine Online-Zahlungsabwicklung. Die Zahlungsdetails werden dir im Nachgang per E-Mail mitgeteilt.\n\nDie Bestelldaten werden in einer Datenbank gespeichert, die bei {database} innerhalb der Europäischen Union gehostet wird. Mit dem Anbieter besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO.\n\nBestelldaten werden entsprechend der gesetzlichen Aufbewahrungsfristen (siehe Ziffer 2) gespeichert."
+      },
+      {
+        "heading": "6. Versand von Bestellbestätigungen per E-Mail",
+        "body": "Zum Versand von Bestellbestätigungen und Informationen zur Zahlungsabwicklung nutzen wir {emailService}. Hierzu wird deine E-Mail-Adresse sowie der Inhalt der Bestellung an den genannten Dienstleister übermittelt. Mit dem Anbieter besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO."
+      },
+      {
+        "heading": "7. Speicherung von Produktbildern",
+        "body": "Produktbilder werden über den Dienst Cloudflare R2 (Cloudflare, Inc.) ausgeliefert. Hierbei werden keine personenbezogenen Daten von dir verarbeitet; es handelt sich ausschließlich um die technische Bereitstellung statischer Bilddateien."
+      },
+      {
+        "heading": "8. Deine Rechte als betroffene Person",
+        "body": "Dir stehen folgende Rechte zu:\n\n– Recht auf Auskunft (Art. 15 DSGVO)\n– Recht auf Berichtigung (Art. 16 DSGVO)\n– Recht auf Löschung (Art. 17 DSGVO)\n– Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)\n– Recht auf Datenübertragbarkeit (Art. 20 DSGVO)\n– Widerspruchsrecht gegen die Verarbeitung (Art. 21 DSGVO)\n\nZur Ausübung dieser Rechte genügt eine formlose Mitteilung an die in Ziffer 1 genannte E-Mail-Adresse.\n\nDarüber hinaus hast du das Recht, dich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung deiner personenbezogenen Daten zu beschweren."
+      },
+      {
+        "heading": "9. Änderung dieser Datenschutzerklärung",
+        "body": "Wir behalten uns vor, diese Datenschutzerklärung anzupassen, um sie an geänderte Rechtslagen oder bei Änderungen unseres Angebots anzupassen. Für deinen erneuten Besuch gilt dann die neue Datenschutzerklärung."
+      }
+    ]
+  },
+  "imprint": {
+    "title": "Impressum",
+    "sections": [
+      {
+        "heading": "Angaben gemäß § 5 DDG",
+        "body": "{owner}\n{street}\n{city}\nDeutschland"
+      },
+      {
+        "heading": "Kontakt",
+        "body": "E-Mail: {email}\nTelefon: {phone}"
+      },
+      {
+        "heading": "Umsatzsteuer",
+        "body": "Gemäß § 19 Abs. 1 UStG wird keine Umsatzsteuer berechnet, da Kleinunternehmer im Sinne dieser Vorschrift."
+      },
+      {
+        "heading": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
+        "body": "{owner}\n{street}\n{city}"
+      },
+      {
+        "heading": "Verbraucherstreitbeilegung",
+        "body": "Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+      }
+    ]
+  }
 }

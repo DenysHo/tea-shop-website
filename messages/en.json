@@ -1,13 +1,19 @@
 {
   "common": {
-    "brand": { "tagline": "Tea, prepared with intention" },
+    "brand": {
+      "tagline": "Tea, prepared with intention"
+    },
     "nav": {
       "tea": "Tea",
       "teaware": "Tea Ware",
       "philosophy": "Philosophy",
+      "order": "How to Order",
       "contact": "Contact"
     },
-    "language": { "en": "English", "de": "Deutsch" },
+    "language": {
+      "en": "English",
+      "de": "Deutsch"
+    },
     "cta": {
       "instagram": "Message us on Instagram",
       "viewTea": "View the tea",
@@ -41,8 +47,14 @@
       "title": "Slowness is not a delay. It is the point.",
       "body": "Every tea here was chosen because it held our attention. Every bowl and pot was chosen because it was made by someone who still shapes clay by hand. We are not building a catalog. We are building a place to slow down."
     },
-    "featuredTea": { "eyebrow": "From this season", "title": "Tea worth waiting for" },
-    "featuredTeaware": { "eyebrow": "Made by hand", "title": "Tools for the ceremony" },
+    "featuredTea": {
+      "eyebrow": "From this season",
+      "title": "Tea worth waiting for"
+    },
+    "featuredTeaware": {
+      "eyebrow": "Made by hand",
+      "title": "Tools for the ceremony"
+    },
     "cta": {
       "title": "Ready to order?",
       "body": "We handle every order personally, over Instagram. Tell us what you're drawn to, and we'll help you choose."
@@ -64,7 +76,12 @@
     "material": "Material",
     "craftsman": "Craftsman",
     "capacity": "Capacity",
-    "caffeine": { "none": "None", "low": "Low", "medium": "Medium", "high": "High" },
+    "caffeine": {
+      "none": "None",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
     "notFound": "This item could not be found."
   },
   "cart": {
@@ -78,114 +95,114 @@
     "added": "Added"
   },
   "checkout": {
-  "title": "Checkout",
-  "name": "Full name",
-  "email": "Email",
-  "phone": "Phone (optional)",
-  "country": "Country",
-  "postalCode": "Postal code",
-  "city": "City",
-  "street": "Street",
-  "houseNumber": "House number",
-  "note": "Order note (optional)",
-  "consent": "I agree to the processing of my data as described in the Privacy Policy.",
-  "submit": "Order with obligation to pay",
-  "submitting": "Sending order…",
-  "shippingNote": "plus shipping",
-  "empty": "Your cart is empty.",
-  "subtotal": "Subtotal",
-  "piece": "pc",
-  "paymentNote": "No payment is taken now. We'll email you the payment details shortly.",
-  "successTitle": "Order received",
-  "successBody": "Thank you! Your order #{id} has been placed. Check your email for payment details."
-},
-"contact": {
-  "title": "Contact",
-  "body": "Questions about tea, an order or anything else? Write to us by email or on Instagram.",
-  "email": "Email"
-},
-"withdrawal": {
-  "title": "Right of Withdrawal",
-  "sections": [
-    {
-      "heading": "Right of withdrawal",
-      "body": "You have the right to withdraw from this contract within fourteen days without giving any reason.\n\nThe withdrawal period is fourteen days from the day on which you, or a third party named by you who is not the carrier, take possession of the goods.\n\nTo exercise your right of withdrawal, you must inform us\n\n[YOUR NAME]\n[YOUR STREET AND HOUSE NUMBER]\n[YOUR POSTAL CODE AND CITY]\nGermany\nEmail: {email}\n\nby means of a clear statement (e.g. a letter sent by post or an email) of your decision to withdraw from this contract. You may use the model withdrawal form below, but this is not required.\n\nTo meet the withdrawal deadline, it is sufficient for you to send your notice before the withdrawal period has expired."
-    },
-    {
-      "heading": "Effects of withdrawal",
-      "body": "If you withdraw from this contract, we will refund all payments received from you, including delivery costs (except for any additional costs resulting from your choice of a delivery type other than the cheapest standard delivery offered by us), without undue delay and in any event no later than fourteen days from the day on which we receive notice of your withdrawal. We will use the same means of payment that you used for the original transaction, unless expressly agreed otherwise with you; in no case will you be charged any fees for this refund.\n\nWe may withhold the refund until we have received the goods back or until you have supplied proof that you have sent them back, whichever is earlier.\n\nYou must send back or hand over the goods to us without undue delay and in any event no later than fourteen days from the day on which you inform us of your withdrawal. The deadline is met if you send the goods before the period of fourteen days has expired.\n\nYou bear the direct costs of returning the goods.\n\nYou are only liable for any loss in value of the goods if this results from handling them in a way that is not necessary to check their nature, characteristics and functioning."
-    },
-    {
-      "heading": "Model withdrawal form",
-      "body": "(Complete and return this form only if you wish to withdraw from the contract.)\n\nTo:\n[YOUR NAME]\n[YOUR STREET AND HOUSE NUMBER]\n[YOUR POSTAL CODE AND CITY]\nGermany\nEmail: {email}\n\nI/We (*) hereby withdraw from the contract concluded by me/us (*) for the purchase of the following goods (*):\n\n_______________________\n\nOrdered on (*) / received on (*):\nName of consumer(s):\nAddress of consumer(s):\nSignature of consumer(s) (only if this form is sent on paper):\nDate:\n\n(*) Delete as appropriate.\n\nThe German version of this notice is legally binding."
-    }
-  ]
-},
-"privacy": {
-  "title": "Privacy Policy",
-  "updated": "Last updated: October 2026",
-  "sections": [
-    {
-      "heading": "1. Data controller",
-      "body": "The data controller within the meaning of the General Data Protection Regulation (GDPR) is:\n\n[YOUR NAME]\n[YOUR STREET AND HOUSE NUMBER]\n[YOUR POSTAL CODE AND CITY]\nEmail: [YOUR EMAIL]\n\nIf you have any questions about data protection, you can contact us at the email address above at any time."
-    },
-    {
-      "heading": "2. General information on data processing",
-      "body": "We only process personal data of our users to the extent necessary to provide a functioning website and our content and services.\n\nProcessing of personal data regularly takes place only with the user's consent (Art. 6(1)(a) GDPR), to fulfil a contract or pre-contractual measures (Art. 6(1)(b) GDPR), or where necessary to safeguard our legitimate interests (Art. 6(1)(f) GDPR).\n\nPersonal data is deleted as soon as the purpose for storing it no longer applies, unless statutory retention obligations apply (e.g. German tax and commercial law retention periods of up to 10 years for order and invoice records under §§ 147 AO, 257 HGB)."
-    },
-    {
-      "heading": "3. Provision of the website and creation of log files",
-      "body": "When you visit our website, our hosting provider automatically collects information in so-called server log files that your browser transmits automatically. These are:\n\n– IP address\n– Date and time of the request\n– Content of the request (specific page)\n– Access status / HTTP status code\n– Browser type and operating system\n– Referrer URL\n\nThis data is not merged with other data sources. Collection takes place on the basis of Art. 6(1)(f) GDPR for the technical provision and security of the website. The data is automatically deleted after no more than [NUMBER] days.\n\nHosting provider: [NAME OF HOSTING PROVIDER, e.g. Vercel Inc.]. If the provider is based outside the EU/EEA, transfer takes place on the basis of Standard Contractual Clauses or an equivalent level of protection."
-    },
-    {
-      "heading": "4. Local storage (localStorage) for the shopping cart",
-      "body": "Our shopping cart stores the items you select in your browser's local storage (localStorage), which is technically necessary. This data never leaves your device and is not transmitted to us until you submit an order. As this is a strictly necessary technical function, no consent under § 25 TTDSG is required.\n\nYou can clear this local storage at any time via your browser settings."
-    },
-    {
-      "heading": "5. Data processing when placing an order",
-      "body": "When you place an order through our website, we collect and process the following data:\n\n– Name\n– Email address\n– Phone number (optional)\n– Delivery address (country, postal code, city, street, house number)\n– Any note you add to the order\n– Order content (selected items, quantity, price)\n\nThis processing takes place to carry out the ordering process and to fulfil the contract (Art. 6(1)(b) GDPR). Providing a phone number is optional and is used solely to make it easier to contact you about delivery questions.\n\nOur website currently does not process online payments. Payment details will be sent to you afterwards by email.\n\nOrder data is stored in a database hosted by [NAME OF DATABASE PROVIDER] within the European Union. A data processing agreement under Art. 28 GDPR is in place with this provider.\n\nOrder data is retained in accordance with statutory retention periods (see section 2)."
-    },
-    {
-      "heading": "6. Sending order confirmations by email",
-      "body": "To send order confirmations and payment information, we use [NAME OF EMAIL SERVICE PROVIDER, e.g. Resend/Brevo]. For this purpose, your email address and the content of your order are transmitted to the provider named above. A data processing agreement under Art. 28 GDPR is in place with this provider. The legal basis is Art. 6(1)(b) GDPR."
-    },
-    {
-      "heading": "7. Storage of product images",
-      "body": "Product images are delivered via Cloudflare R2 (Cloudflare, Inc.). No personal data about you is processed in this context; this solely concerns the technical delivery of static image files."
-    },
-    {
-      "heading": "8. Your rights as a data subject",
-      "body": "You have the following rights:\n\n– Right of access (Art. 15 GDPR)\n– Right to rectification (Art. 16 GDPR)\n– Right to erasure (Art. 17 GDPR)\n– Right to restriction of processing (Art. 18 GDPR)\n– Right to data portability (Art. 20 GDPR)\n– Right to object to processing (Art. 21 GDPR)\n\nTo exercise these rights, an informal message to the email address given in section 1 is sufficient.\n\nYou also have the right to lodge a complaint with a data protection supervisory authority regarding our processing of your personal data."
-    },
-    {
-      "heading": "9. Changes to this privacy policy",
-      "body": "We reserve the right to amend this privacy policy to reflect changes in the law or in our offering. Your continued visit to the site is then subject to the updated privacy policy."
-    }
-  ]
-},
-"imprint": {
-  "title": "Legal Notice",
-  "sections": [
-    {
-      "heading": "Information pursuant to § 5 DDG",
-      "body": "[YOUR NAME]\n[YOUR STREET AND HOUSE NUMBER]\n[YOUR POSTAL CODE AND CITY]\nGermany"
-    },
-    {
-      "heading": "Contact",
-      "body": "Email: [YOUR EMAIL]\nPhone: [YOUR PHONE NUMBER, optional]"
-    },
-    {
-      "heading": "VAT",
-      "body": "In accordance with § 19 (1) UStG (German VAT Act), no VAT is charged, as this business qualifies as a small business (Kleinunternehmer) under this provision."
-    },
-    {
-      "heading": "Responsible for content pursuant to § 18 (2) MStV",
-      "body": "[YOUR NAME]\n[YOUR ADDRESS AS ABOVE]"
-    },
-    {
-      "heading": "Consumer dispute resolution",
-      "body": "We are not willing and not obliged to participate in dispute resolution proceedings before a consumer arbitration board."
-    }
-  ]
-}
+    "title": "Checkout",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "country": "Country",
+    "postalCode": "Postal code",
+    "city": "City",
+    "street": "Street",
+    "houseNumber": "House number",
+    "note": "Order note (optional)",
+    "consent": "I agree to the processing of my data as described in the Privacy Policy.",
+    "submit": "Order with obligation to pay",
+    "submitting": "Sending order…",
+    "empty": "Your cart is empty.",
+    "subtotal": "Subtotal",
+    "piece": "pc",
+    "paymentNote": "No payment is taken now. We'll email you the payment details shortly.",
+    "successTitle": "Order received",
+    "successBody": "Thank you! Your order #{id} has been placed. Check your email for payment details.",
+    "shippingNote": "plus shipping"
+  },
+  "contact": {
+    "title": "Contact",
+    "body": "Questions about tea, an order or anything else? Write to us by email or on Instagram.",
+    "email": "Email"
+  },
+  "withdrawal": {
+    "title": "Right of Withdrawal",
+    "sections": [
+      {
+        "heading": "Right of withdrawal",
+        "body": "You have the right to withdraw from this contract within fourteen days without giving any reason.\n\nThe withdrawal period is fourteen days from the day on which you, or a third party named by you who is not the carrier, take possession of the goods.\n\nTo exercise your right of withdrawal, you must inform us\n\n{owner}\n{street}\n{city}\nGermany\nEmail: {email}\n\nby means of a clear statement (e.g. a letter sent by post or an email) of your decision to withdraw from this contract. You may use the model withdrawal form below, but this is not required.\n\nTo meet the withdrawal deadline, it is sufficient for you to send your notice before the withdrawal period has expired."
+      },
+      {
+        "heading": "Effects of withdrawal",
+        "body": "If you withdraw from this contract, we will refund all payments received from you, including delivery costs (except for any additional costs resulting from your choice of a delivery type other than the cheapest standard delivery offered by us), without undue delay and in any event no later than fourteen days from the day on which we receive notice of your withdrawal. We will use the same means of payment that you used for the original transaction, unless expressly agreed otherwise with you; in no case will you be charged any fees for this refund.\n\nWe may withhold the refund until we have received the goods back or until you have supplied proof that you have sent them back, whichever is earlier.\n\nYou must send back or hand over the goods to us without undue delay and in any event no later than fourteen days from the day on which you inform us of your withdrawal. The deadline is met if you send the goods before the period of fourteen days has expired.\n\nYou bear the direct costs of returning the goods.\n\nYou are only liable for any loss in value of the goods if this results from handling them in a way that is not necessary to check their nature, characteristics and functioning."
+      },
+      {
+        "heading": "Model withdrawal form",
+        "body": "(Complete and return this form only if you wish to withdraw from the contract.)\n\nTo:\n{owner}\n{street}\n{city}\nGermany\nEmail: {email}\n\nI/We (*) hereby withdraw from the contract concluded by me/us (*) for the purchase of the following goods (*):\n\n_______________________\n\nOrdered on (*) / received on (*):\nName of consumer(s):\nAddress of consumer(s):\nSignature of consumer(s) (only if this form is sent on paper):\nDate:\n\n(*) Delete as appropriate.\n\nThe German version of this notice is legally binding."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: October 2026",
+    "sections": [
+      {
+        "heading": "1. Data controller",
+        "body": "The data controller within the meaning of the General Data Protection Regulation (GDPR) is:\n\n{owner}\n{street}\n{city}\nEmail: {email}\n\nIf you have any questions about data protection, you can contact us at the email address above at any time."
+      },
+      {
+        "heading": "2. General information on data processing",
+        "body": "We only process personal data of our users to the extent necessary to provide a functioning website and our content and services.\n\nProcessing of personal data regularly takes place only with the user's consent (Art. 6(1)(a) GDPR), to fulfil a contract or pre-contractual measures (Art. 6(1)(b) GDPR), or where necessary to safeguard our legitimate interests (Art. 6(1)(f) GDPR).\n\nPersonal data is deleted as soon as the purpose for storing it no longer applies, unless statutory retention obligations apply (e.g. German tax and commercial law retention periods of up to 10 years for order and invoice records under §§ 147 AO, 257 HGB)."
+      },
+      {
+        "heading": "3. Provision of the website and creation of log files",
+        "body": "When you visit our website, our hosting provider automatically collects information in so-called server log files that your browser transmits automatically. These are:\n\n– IP address\n– Date and time of the request\n– Content of the request (specific page)\n– Access status / HTTP status code\n– Browser type and operating system\n– Referrer URL\n\nThis data is not merged with other data sources. Collection takes place on the basis of Art. 6(1)(f) GDPR for the technical provision and security of the website. The data is automatically deleted after no more than {logDays} days.\n\nHosting provider: {hosting}. If the provider is based outside the EU/EEA, transfer takes place on the basis of Standard Contractual Clauses or an equivalent level of protection."
+      },
+      {
+        "heading": "4. Local storage (localStorage) for the shopping cart",
+        "body": "Our shopping cart stores the items you select in your browser's local storage (localStorage), which is technically necessary. This data never leaves your device and is not transmitted to us until you submit an order. As this is a strictly necessary technical function, no consent under § 25 TTDSG is required.\n\nYou can clear this local storage at any time via your browser settings."
+      },
+      {
+        "heading": "5. Data processing when placing an order",
+        "body": "When you place an order through our website, we collect and process the following data:\n\n– Name\n– Email address\n– Phone number (optional)\n– Delivery address (country, postal code, city, street, house number)\n– Any note you add to the order\n– Order content (selected items, quantity, price)\n\nThis processing takes place to carry out the ordering process and to fulfil the contract (Art. 6(1)(b) GDPR). Providing a phone number is optional and is used solely to make it easier to contact you about delivery questions.\n\nOur website currently does not process online payments. Payment details will be sent to you afterwards by email.\n\nOrder data is stored in a database hosted by {database} within the European Union. A data processing agreement under Art. 28 GDPR is in place with this provider.\n\nOrder data is retained in accordance with statutory retention periods (see section 2)."
+      },
+      {
+        "heading": "6. Sending order confirmations by email",
+        "body": "To send order confirmations and payment information, we use {emailService}. For this purpose, your email address and the content of your order are transmitted to the provider named above. A data processing agreement under Art. 28 GDPR is in place with this provider. The legal basis is Art. 6(1)(b) GDPR."
+      },
+      {
+        "heading": "7. Storage of product images",
+        "body": "Product images are delivered via Cloudflare R2 (Cloudflare, Inc.). No personal data about you is processed in this context; this solely concerns the technical delivery of static image files."
+      },
+      {
+        "heading": "8. Your rights as a data subject",
+        "body": "You have the following rights:\n\n– Right of access (Art. 15 GDPR)\n– Right to rectification (Art. 16 GDPR)\n– Right to erasure (Art. 17 GDPR)\n– Right to restriction of processing (Art. 18 GDPR)\n– Right to data portability (Art. 20 GDPR)\n– Right to object to processing (Art. 21 GDPR)\n\nTo exercise these rights, an informal message to the email address given in section 1 is sufficient.\n\nYou also have the right to lodge a complaint with a data protection supervisory authority regarding our processing of your personal data."
+      },
+      {
+        "heading": "9. Changes to this privacy policy",
+        "body": "We reserve the right to amend this privacy policy to reflect changes in the law or in our offering. Your continued visit to the site is then subject to the updated privacy policy."
+      }
+    ]
+  },
+  "imprint": {
+    "title": "Legal Notice",
+    "sections": [
+      {
+        "heading": "Information pursuant to § 5 DDG",
+        "body": "{owner}\n{street}\n{city}\nGermany"
+      },
+      {
+        "heading": "Contact",
+        "body": "Email: {email}\nPhone: {phone}"
+      },
+      {
+        "heading": "VAT",
+        "body": "In accordance with § 19 (1) UStG (German VAT Act), no VAT is charged, as this business qualifies as a small business (Kleinunternehmer) under this provision."
+      },
+      {
+        "heading": "Responsible for content pursuant to § 18 (2) MStV",
+        "body": "{owner}\n{street}\n{city}"
+      },
+      {
+        "heading": "Consumer dispute resolution",
+        "body": "We are not willing and not obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+      }
+    ]
+  }
 }
