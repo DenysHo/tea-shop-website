@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { formatMoney } from "@/lib/money";
 
 function pricePerKg(priceCents, grams) {
@@ -24,9 +25,13 @@ function TeaPrice({ priceCents, grams, locale }) {
   );
 }
 
-export default function PriceTag({ product, locale }) {
+function PriceNote() {
+  const t = useTranslations("product");
+  return <p className="mt-1 font-body text-xs text-stone">{t("priceNote")}</p>;
+}
+
+function Price({ product, locale }) {
   const { priceCents, category } = product;
-  if (priceCents == null) return null;
 
   if (category === "tea") {
     return (
@@ -51,4 +56,15 @@ export default function PriceTag({ product, locale }) {
   }
 
   return <p className="font-body text-sm text-ink">{main}</p>;
+}
+
+export default function PriceTag({ product, locale }) {
+  if (product.priceCents == null) return null;
+
+  return (
+    <div>
+      <Price product={product} locale={locale} />
+      <PriceNote />
+    </div>
+  );
 }

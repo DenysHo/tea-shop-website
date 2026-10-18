@@ -55,6 +55,7 @@
     "empty": "Hier gibt es noch nichts — bitte schauen Sie bald wieder vorbei."
   },
   "product": {
+    "priceNote": "Gemäß § 19 UStG wird keine MwSt. berechnet. Zzgl. Versandkosten.",
     "origin": "Herkunft",
     "harvest": "Ernte",
     "caffeineLevel": "Koffein",
