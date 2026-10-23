@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { drawerRight, fade } from "@/lib/motion";
 import { useLocale, useTranslations } from "next-intl";
 import { useCart } from "./CartContext";
 import { formatMoney } from "@/lib/money";
@@ -63,17 +64,12 @@ export default function CartWidget() {
         {open && (
           <>
             <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              {...fade}
               onClick={() => setOpen(false)}
               className="fixed inset-0 z-40 bg-ink/40"
             />
             <motion.aside
-              initial={{ x: "100%" }}
-              animate={{ x: 0 }}
-              exit={{ x: "100%" }}
-              transition={{ type: "spring", stiffness: 320, damping: 36 }}
+              {...drawerRight}
               className="fixed right-0 top-0 z-50 flex h-full w-full max-w-sm flex-col bg-paper shadow-xl"
             >
               <div className="flex items-center justify-between border-b border-bamboo/30 px-5 py-4">

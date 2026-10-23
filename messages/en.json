@@ -34,14 +34,12 @@
       "title": "This page has steeped away",
       "body": "The page you're looking for doesn't exist.",
       "backHome": "Back to home"
-    }
+    },
+    "menu": "Menu",
+    "close": "Close",
+    "home": "Home"
   },
   "home": {
-    "hero": {
-      "eyebrow": "Chinese tea & tea ware",
-      "title": "The moment the leaf opens",
-      "subtitle": "We source tea and ceremony tools from small growers and makers, and bring them to you exactly as they are."
-    },
     "philosophy": {
       "eyebrow": "Our approach",
       "title": "Slowness is not a delay. It is the point.",
@@ -55,9 +53,93 @@
       "eyebrow": "Made by hand",
       "title": "Tools for the ceremony"
     },
-    "cta": {
-      "title": "Ready to order?",
-      "body": "We handle every order personally, over Instagram. Tell us what you're drawn to, and we'll help you choose."
+    "slider": {
+      "label": "Highlights",
+      "goTo": "Show slide {n}",
+      "slides": [
+        {
+          "script": "Welcome to Zentee",
+          "title": "A place to slow down",
+          "text": "Chinese tea and tea ware from small growers and makers.",
+          "cta": "Explore tea",
+          "alt": "Tea ceremony by the lake"
+        },
+        {
+          "script": "delicate & fresh",
+          "title": "Green tea",
+          "temp": "70–80 °C",
+          "text": "Boiling water makes it bitter. Let the water cool for a moment.",
+          "cta": "See the tea",
+          "alt": "Green tea in a gaiwan"
+        },
+        {
+          "script": "three things in one",
+          "title": "Gaiwan 盖碗",
+          "text": "Teapot and tea bowl at once.",
+          "cta": "See the tea ware",
+          "alt": "Blue and white porcelain gaiwan"
+        },
+        {
+          "script": "deep & bold",
+          "title": "Pu-erh",
+          "temp": "95–100 °C",
+          "text": "It loves hot water. That is how its full depth comes out.",
+          "cta": "See the tea",
+          "alt": "Pu-erh in a tea bowl"
+        },
+        {
+          "script": "spring in a cup",
+          "title": "Long Jing 龙井",
+          "text": "A green tea with flat, delicate leaves.",
+          "cta": "See the tea",
+          "alt": "Long Jing in a gaiwan"
+        }
+      ]
+    },
+    "tea": {
+      "script": "from this season",
+      "title": "Tea",
+      "viewAll": "All tea"
+    },
+    "teaware": {
+      "script": "made by hand",
+      "title": "Tea ware",
+      "viewAll": "All tea ware"
+    },
+    "temps": {
+      "title": "Save for later",
+      "note": "A few degrees make the difference",
+      "rows": [
+        {
+          "name": "Green tea",
+          "temp": "70–80 °C"
+        },
+        {
+          "name": "White tea",
+          "temp": "75–85 °C"
+        },
+        {
+          "name": "Oolong",
+          "temp": "85–95 °C"
+        },
+        {
+          "name": "Red tea",
+          "temp": "90–100 °C"
+        },
+        {
+          "name": "Pu-erh",
+          "temp": "95–100 °C"
+        }
+      ]
+    },
+    "approach": {
+      "script": "Every tea has its measure",
+      "more": "More about us"
+    },
+    "instagram": {
+      "script": "on Instagram",
+      "follow": "Follow",
+      "post": "Post on Instagram"
     }
   },
   "catalog": {

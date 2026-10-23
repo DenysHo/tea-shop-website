@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
+import { reorderSpring } from "@/lib/motion";
 import { getDomainsImageUrl } from "@/lib/imageUrl";
 
 const MAX_IMAGES = 20;
@@ -151,7 +152,7 @@ export default function ImagesField({ images = [] }) {
               >
                 <motion.div
                   layout
-                  transition={{ type: "spring", stiffness: 500, damping: 42 }}
+                  transition={reorderSpring}
                   className={`relative aspect-[4/5] w-24 overflow-hidden rounded border bg-linen sm:w-28 ${
                     isMain
                       ? "border-matcha ring-2 ring-matcha/40"
