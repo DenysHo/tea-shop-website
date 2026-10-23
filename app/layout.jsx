@@ -1,4 +1,4 @@
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Cormorant_Garamond, Jost, Pinyon_Script } from "next/font/google";
 import "./globals.css";
 import { SITE } from "@/lib/site";
 
@@ -10,11 +10,18 @@ const display = Cormorant_Garamond({
   variable: "--font-display",
 });
 
-const body = Inter({
+const body = Jost({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["300", "400", "500", "600"],
   display: "swap",
   variable: "--font-body",
+});
+
+const script = Pinyon_Script({
+  subsets: ["latin"],
+  weight: "400",
+  display: "swap",
+  variable: "--font-script",
 });
 
 export const metadata = {
@@ -25,8 +32,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable}`}>
-      <body className="bg-paper text-ink font-body antialiased">
+    <html lang="en" className={`${display.variable} ${body.variable} ${script.variable}`}>
+      <body className="bg-paper text-ink font-body font-light antialiased">
         {children}
       </body>
     </html>

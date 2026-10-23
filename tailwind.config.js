@@ -4,19 +4,24 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        paper: "#F7F4EF",
-        linen: "#EDE7DC",
-        ink: "#1E1B16",
-        stone: "#5A554C",
-        matcha: "#6B7A5E",
+        paper: "#F3F0E9",
+        linen: "#E9E4D8",
+        ink: "#1F2A24",
+        stone: "#5C6A61",
+        matcha: "#3F7A5A",
+        leaf: "#519872",
+        mint: "#A9D3BC",
+        forest: "#1E3A2F",
+        "forest-dark": "#16291F",
         clay: "#8C5A3C",
-        bamboo: "#B8A588",
+        bamboo: "#C9BFAE",
         seal: "#A13D2E",
         "ink-dark": "#15130F",
       },
       fontFamily: {
         display: ["var(--font-display)", "serif"],
         body: ["var(--font-body)", "system-ui", "sans-serif"],
+        script: ["var(--font-script)", "cursive"],
       },
       letterSpacing: {
         wide: "0.08em",
