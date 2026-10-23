@@ -2,13 +2,12 @@
 
 import { useEffect, useState } from "react";
 import { Link } from "@/i18n/navigation";
-
-const INTERVAL_MS = 5000;
+import { SLIDER_INTERVAL_MS } from "@/lib/motion";
 
 function useAutoplay(count, index, setIndex) {
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const timer = setTimeout(() => setIndex((index + 1) % count), INTERVAL_MS);
+    const timer = setTimeout(() => setIndex((index + 1) % count), SLIDER_INTERVAL_MS);
     return () => clearTimeout(timer);
   }, [count, index, setIndex]);
 }
@@ -28,7 +27,7 @@ function Slide({ slide, active }) {
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(31,42,36,0)_20%,rgba(31,42,36,0.55)_55%,rgba(31,42,36,0.9)_100%)] md:bg-gradient-to-r md:from-ink/75 md:via-ink/25 md:to-transparent" />
       <div className="absolute inset-0 mx-auto flex max-w-content flex-col justify-end px-6 pb-20 text-white md:justify-center md:px-10 md:pb-0">
         <p className="font-script text-3xl leading-tight md:text-[40px]">{slide.script}</p>
-        <h2 className="mt-1 max-w-2xl font-display text-[38px] font-medium uppercase leading-[1.05] tracking-[0.08em] md:text-6xl">
+        <h2 className="heading-caps mt-1 max-w-2xl text-[38px] leading-[1.05] tracking-[0.08em] text-white md:text-6xl">
           {slide.title}
         </h2>
         {slide.temp && (
@@ -38,7 +37,7 @@ function Slide({ slide, active }) {
         <Link
           href={slide.href}
           tabIndex={active ? 0 : -1}
-          className="mt-6 inline-flex h-12 items-center gap-3 self-start border border-white/85 px-6 text-xs font-normal uppercase tracking-[0.2em] transition-colors duration-300 hover:bg-white hover:text-ink"
+          className="btn-outline-light mt-6 self-start"
         >
           {slide.cta}
           <svg width="28" height="10" viewBox="0 0 28 10" fill="none" stroke="currentColor" strokeWidth="1" aria-hidden="true">

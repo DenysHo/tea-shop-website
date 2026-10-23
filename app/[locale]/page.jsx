@@ -122,10 +122,10 @@ export default async function HomePage({ params: { locale } }) {
           <p className="text-xs uppercase tracking-[0.24em] text-stone">{t("philosophy.eyebrow")}</p>
           <h2 className="mt-4 font-display text-3xl leading-tight md:text-[40px]">{t("philosophy.title")}</h2>
           <div className="mx-auto my-6 h-px w-14 bg-matcha" />
-          <p className="font-script text-[28px] leading-tight text-matcha md:text-[34px]">{t("approach.script")}</p>
+          <p className="script-accent text-[28px] md:text-[34px]">{t("approach.script")}</p>
           <Link
             href="/philosophy"
-            className="mt-5 inline-block py-2 text-xs font-normal uppercase tracking-[0.2em] hover:text-matcha"
+            className="label-caps mt-5 inline-block py-2 hover:text-matcha"
           >
             {t("approach.more")}
           </Link>

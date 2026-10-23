@@ -8,7 +8,7 @@ export function InstagramStrip({ script, follow, postLabel }) {
       <div className="mx-auto max-w-content px-4 md:px-10">
         <div className="flex flex-col items-center gap-4 text-center md:flex-row md:items-end md:justify-between md:text-left">
           <div>
-            <p className="font-script text-[28px] leading-tight text-mint md:text-[34px]">{script}</p>
+            <p className="script-accent text-[28px] text-mint md:text-[34px]">{script}</p>
             <a
               href={SITE.instagram.url}
               target="_blank"
@@ -22,7 +22,7 @@ export function InstagramStrip({ script, follow, postLabel }) {
             href={SITE.instagram.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden h-12 items-center border border-paper px-7 text-xs font-normal uppercase tracking-[0.2em] transition-colors hover:bg-paper hover:text-forest md:inline-flex"
+            className="btn-outline-paper hidden md:inline-flex"
           >
             {follow}
           </a>
@@ -52,7 +52,7 @@ export function InstagramStrip({ script, follow, postLabel }) {
           href={SITE.instagram.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-6 flex h-12 items-center justify-center border border-paper text-xs font-normal uppercase tracking-[0.2em] md:hidden"
+          className="btn-outline-paper mt-6 flex md:hidden"
         >
           {follow}
         </a>

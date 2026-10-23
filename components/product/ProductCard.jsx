@@ -1,25 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { revealVariants } from "@/lib/motion";
 import { useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { PlaceholderArt } from "@/components/foundation/PlaceholderArt";
 import { asTranslated, resolveTranslated } from "@/lib/types";
 import Image from "@/components/product/Image";
 import PriceTag from "@/components/product/PriceTag";
-
-const scrollRevealVariants = {
-  hidden: { opacity: 0, y: 24 },
-  visible: (i = 0) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.7,
-      ease: [0.22, 1, 0.36, 1],
-      delay: Math.min(i, 8) * 0.06,
-    },
-  }),
-};
 
 export function ProductCard({ product, index = 0 }) {
   const locale = useLocale();
@@ -32,7 +20,7 @@ export function ProductCard({ product, index = 0 }) {
 
   return (
     <motion.div
-      variants={scrollRevealVariants}
+      variants={revealVariants}
       initial="hidden"
       animate="visible"
       custom={index}

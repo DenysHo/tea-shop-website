@@ -17,7 +17,7 @@ export function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-30 border-b border-bamboo/40 bg-paper/95 backdrop-blur">
+    <header className="sticky top-0 z-30 border-b border-bamboo/40 bg-paper">
       <Container className="grid h-16 grid-cols-[1fr_auto_1fr] items-center md:flex md:h-20 md:justify-between">
         <MobileMenu items={navItems} menuLabel={t("menu")} closeLabel={t("close")} />
 

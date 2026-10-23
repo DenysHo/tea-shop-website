@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
+import { fade } from "@/lib/motion";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LanguageSwitcher } from "@/components/foundation/LanguageSwitcher";
 
@@ -18,10 +18,7 @@ function useLockScroll(locked) {
 function MenuPanel({ items, closeLabel, onClose }) {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.25 }}
+      {...fade}
       className="fixed inset-0 z-50 flex flex-col bg-paper px-6"
     >
       <div className="flex h-16 items-center">
@@ -59,10 +56,8 @@ function MenuPanel({ items, closeLabel, onClose }) {
 
 export function MobileMenu({ items, menuLabel, closeLabel }) {
   const [open, setOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
 
-  useEffect(() => setMounted(true), []);
   useEffect(() => setOpen(false), [pathname]);
   useLockScroll(open);
 
@@ -80,13 +75,9 @@ export function MobileMenu({ items, menuLabel, closeLabel }) {
         </svg>
       </button>
 
-      {mounted &&
-        createPortal(
-          <AnimatePresence>
-            {open && <MenuPanel items={items} closeLabel={closeLabel} onClose={() => setOpen(false)} />}
-          </AnimatePresence>,
-          document.body,
-        )}
+      <AnimatePresence>
+        {open && <MenuPanel items={items} closeLabel={closeLabel} onClose={() => setOpen(false)} />}
+      </AnimatePresence>
     </div>
   );
 }
