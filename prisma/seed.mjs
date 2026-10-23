@@ -3,6 +3,58 @@ import bcrypt from "bcryptjs";
 
 const prisma = new PrismaClient();
 
+function foodInfo(de, en, ingredientDe = de) {
+  return {
+    legalName: { de, en },
+    ingredients: { de: `100 % ${ingredientDe}`, en: `100% ${en.toLowerCase()}` },
+    allergens: {},
+  };
+}
+
+const FOOD_INFO_BY_TYPE = {
+  white: foodInfo("Weißer Tee", "White tea", "weißer Tee"),
+  green: foodInfo("Grüner Tee", "Green tea", "grüner Tee"),
+  oolong: foodInfo("Oolong-Tee", "Oolong tea"),
+  "light oolong": foodInfo("Oolong-Tee", "Oolong tea"),
+  red: foodInfo("Schwarzer Tee", "Black tea", "schwarzer Tee"),
+  puerh: foodInfo("Pu-Erh-Tee", "Pu-erh tea"),
+};
+
+const HOT = { de: "Vorsicht, wird heiß.", en: "Caution, gets hot." };
+
+function safetyInfo(itemNumber, de, en) {
+  return {
+    manufacturer: "[HERSTELLER]",
+    manufacturerContact: "[ADRESSE ODER E-MAIL DES HERSTELLERS]",
+    itemNumber,
+    warnings: { de, en },
+  };
+}
+
+const SAFETY_BY_SLUG = {
+  "yixing-zisha-teapot": safetyInfo(
+    "ZT-TP-001",
+    `Nicht spülmaschinen- und mikrowellengeeignet. Nur mit Wasser reinigen, ohne Spülmittel. ${HOT.de}`,
+    `Not dishwasher or microwave safe. Rinse with water only, no detergent. ${HOT.en}`
+  ),
+  "celadon-gaiwan": safetyInfo(
+    "ZT-GW-001",
+    `Nicht mikrowellengeeignet. Nur Handwäsche. ${HOT.de}`,
+    `Not microwave safe. Hand wash only. ${HOT.en}`
+  ),
+  "bamboo-tea-tray": safetyInfo(
+    "ZT-TR-001",
+    "Nicht spülmaschinengeeignet. Nach Gebrauch trocknen lassen.",
+    "Not dishwasher safe. Let dry after use."
+  ),
+  "chahai-fairness-pitcher": safetyInfo(
+    "ZT-PT-001",
+    `Nicht auf offene Flamme oder Herdplatte stellen. ${HOT.de}`,
+    `Do not use on open flame or stovetop. ${HOT.en}`
+  ),
+  "porcelain-tea-cup": safetyInfo("ZT-CP-001", HOT.de, HOT.en),
+};
+
 async function main() {
   const adminUsername = process.env.ADMIN_USERNAME;
   const adminPassword = process.env.ADMIN_PASSWORD;
@@ -233,10 +285,11 @@ async function main() {
   ];
 
   for (const tea of teas) {
+    const data = { ...tea, ...FOOD_INFO_BY_TYPE[tea.teaType] };
     await prisma.tea.upsert({
       where: { slug: tea.slug },
-      update: tea,
-      create: tea,
+      update: data,
+      create: data,
     });
   }
 
@@ -357,10 +410,11 @@ async function main() {
   ];
 
   for (const teaware of teawares) {
+    const data = { ...teaware, ...SAFETY_BY_SLUG[teaware.slug] };
     await prisma.teaWare.upsert({
       where: { slug: teaware.slug },
-      update: teaware,
-      create: teaware,
+      update: data,
+      create: data,
     });
   }
 }

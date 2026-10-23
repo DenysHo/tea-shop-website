@@ -62,6 +62,12 @@ model AdminUser {
   createdAt    DateTime @default(now())
 }
 
+model LoginAttempt {
+  ip          String    @id
+  failures    Int       @default(0)
+  lockedUntil DateTime?
+}
+
 enum OrderStatus {
   NEW
   PROCESSING
