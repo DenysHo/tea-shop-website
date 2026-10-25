@@ -55,46 +55,7 @@
     },
     "slider": {
       "label": "Highlights",
-      "goTo": "Show slide {n}",
-      "slides": [
-        {
-          "script": "Welcome to Zentee",
-          "title": "A place to slow down",
-          "text": "Chinese tea and tea ware from small growers and makers.",
-          "cta": "Explore tea",
-          "alt": "Tea ceremony by the lake"
-        },
-        {
-          "script": "delicate & fresh",
-          "title": "Green tea",
-          "temp": "70–80 °C",
-          "text": "Boiling water makes it bitter. Let the water cool for a moment.",
-          "cta": "See the tea",
-          "alt": "Green tea in a gaiwan"
-        },
-        {
-          "script": "three things in one",
-          "title": "Gaiwan 盖碗",
-          "text": "Teapot and tea bowl at once.",
-          "cta": "See the tea ware",
-          "alt": "Blue and white porcelain gaiwan"
-        },
-        {
-          "script": "deep & bold",
-          "title": "Pu-erh",
-          "temp": "95–100 °C",
-          "text": "It loves hot water. That is how its full depth comes out.",
-          "cta": "See the tea",
-          "alt": "Pu-erh in a tea bowl"
-        },
-        {
-          "script": "spring in a cup",
-          "title": "Long Jing 龙井",
-          "text": "A green tea with flat, delicate leaves.",
-          "cta": "See the tea",
-          "alt": "Long Jing in a gaiwan"
-        }
-      ]
+      "goTo": "Show slide {n}"
     },
     "tea": {
       "script": "from this season",

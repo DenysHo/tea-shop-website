@@ -98,3 +98,20 @@ model InstagramToken {
   token       String
   refreshedAt DateTime @default(now())
 }
+
+model HeroSlide {
+  id            String   @id @default(cuid())
+  sortOrder     Int      @default(0)
+  active        Boolean  @default(true)
+  image         String
+  imagePosition String   @default("50% 50%")
+  script        Json     @default("{}")
+  title         Json     @default("{}")
+  temp          String   @default("")
+  text          Json     @default("{}")
+  cta           Json     @default("{}")
+  alt           Json     @default("{}")
+  link          String   @default("")
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}

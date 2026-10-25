@@ -9,14 +9,28 @@ import { ProductGrid } from "@/components/product/ProductGrid";
 import { getFeaturedTeas } from "@/lib/services/teaService";
 import { getFeaturedTeawares } from "@/lib/services/teawareService";
 import { getInstagramPosts } from "@/lib/instagram";
+import { getActiveHeroSlides } from "@/lib/services/heroSlideService";
+import { asTranslated, resolveTranslated } from "@/lib/types";
+import { getImageSrc } from "@/lib/imageUrl";
+import { linkType } from "@/lib/slideLink";
 
-const SLIDES = [
-  { image: "/hero/lake.jpg", position: "40% 50%", href: "/tea" },
-  { image: "/hero/green.jpg", position: "55% 50%", href: "/tea" },
-  { image: "/hero/gaiwan.jpg", position: "50% 50%", href: "/teaware" },
-  { image: "/hero/puerh.jpg", position: "60% 50%", href: "/tea" },
-  { image: "/hero/longjing.jpg", position: "45% 50%", href: "/tea" },
-];
+function toSlide(slide, locale, dotLabel) {
+  const text = (field) => resolveTranslated(asTranslated(slide[field]), locale);
+  return {
+    id: slide.id,
+    image: getImageSrc(slide.image),
+    position: slide.imagePosition,
+    script: text("script"),
+    title: text("title"),
+    temp: slide.temp,
+    text: text("text"),
+    cta: text("cta"),
+    alt: text("alt") || text("title"),
+    href: slide.link,
+    external: linkType(slide.link) === "external",
+    dotLabel,
+  };
+}
 
 function toCard(item, category) {
   return {
@@ -69,17 +83,16 @@ export default async function HomePage({ params: { locale } }) {
   unstable_setRequestLocale(locale);
   const t = await getTranslations("home");
 
-  const [teas, teawares, instagramPosts] = await Promise.all([
+  const [heroSlides, teas, teawares, instagramPosts] = await Promise.all([
+    getActiveHeroSlides(),
     getFeaturedTeas(),
     getFeaturedTeawares(),
     getInstagramPosts(),
   ]);
 
-  const slides = t.raw("slider.slides").map((text, i) => ({
-    ...SLIDES[i],
-    ...text,
-    dotLabel: t("slider.goTo", { n: i + 1 }),
-  }));
+  const slides = heroSlides.map((slide, i) =>
+    toSlide(slide, locale, t("slider.goTo", { n: i + 1 })),
+  );
 
   return (
     <>

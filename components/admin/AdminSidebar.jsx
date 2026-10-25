@@ -9,6 +9,9 @@ export function AdminSidebar({ username }) {
       <p className="mt-1 font-body text-xs text-stone">Admin</p>
 
       <nav className="mt-10 flex flex-col gap-3 font-body text-sm">
+        <Link href="/admin/slides" className="text-stone hover:text-ink">
+          Home slider
+        </Link>
         <Link href="/admin/teas" className="text-stone hover:text-ink">
           Tea
         </Link>
