@@ -34,14 +34,12 @@
       "title": "Diese Seite ist verdunstet",
       "body": "Die gesuchte Seite existiert nicht.",
       "backHome": "Zurück zur Startseite"
-    }
+    },
+    "menu": "Menü",
+    "close": "Schließen",
+    "home": "Startseite"
   },
   "home": {
-    "hero": {
-      "eyebrow": "Chinesischer Tee & Teegeschirr",
-      "title": "Der Moment, in dem sich das Blatt öffnet",
-      "subtitle": "Wir beziehen Tee und Zeremonie-Werkzeuge von kleinen Anbauern und Handwerkern und bringen sie unverändert zu Ihnen."
-    },
     "philosophy": {
       "eyebrow": "Unsere Haltung",
       "title": "Langsamkeit ist keine Verzögerung. Sie ist der Sinn.",
@@ -55,9 +53,93 @@
       "eyebrow": "Von Hand gefertigt",
       "title": "Werkzeuge für die Zeremonie"
     },
-    "cta": {
-      "title": "Bereit zu bestellen?",
-      "body": "Wir bearbeiten jede Bestellung persönlich, über Instagram. Erzählen Sie uns, was Sie anspricht."
+    "slider": {
+      "label": "Aktuelles",
+      "goTo": "Folie {n} zeigen",
+      "slides": [
+        {
+          "script": "Willkommen bei Zentee",
+          "title": "Ein Ort, um langsamer zu werden",
+          "text": "Chinesischer Tee und Teegeschirr von kleinen Anbauern und Handwerkern.",
+          "cta": "Tee entdecken",
+          "alt": "Teezeremonie am See"
+        },
+        {
+          "script": "zart & frisch",
+          "title": "Grüner Tee",
+          "temp": "70–80 °C",
+          "text": "Kochendes Wasser macht ihn bitter. Lassen Sie das Wasser kurz abkühlen.",
+          "cta": "Zum Tee",
+          "alt": "Grüner Tee in der Gaiwan"
+        },
+        {
+          "script": "drei Dinge in einem",
+          "title": "Gaiwan 盖碗",
+          "text": "Teekanne und Teeschale zugleich.",
+          "cta": "Zum Teegeschirr",
+          "alt": "Gaiwan aus blau-weißem Porzellan"
+        },
+        {
+          "script": "tief & kräftig",
+          "title": "Pu-Erh",
+          "temp": "95–100 °C",
+          "text": "Er liebt heißes Wasser, so entfaltet sich seine ganze Tiefe.",
+          "cta": "Zum Tee",
+          "alt": "Pu-Erh in der Teeschale"
+        },
+        {
+          "script": "Tee, in dem der Frühling steckt",
+          "title": "Long Jing 龙井",
+          "text": "Ein grüner Tee mit flachen, zarten Blättern.",
+          "cta": "Zum Tee",
+          "alt": "Long Jing in der Gaiwan"
+        }
+      ]
+    },
+    "tea": {
+      "script": "aus dieser Saison",
+      "title": "Tee",
+      "viewAll": "Alle Tees"
+    },
+    "teaware": {
+      "script": "von Hand gefertigt",
+      "title": "Teegeschirr",
+      "viewAll": "Alles Teegeschirr"
+    },
+    "temps": {
+      "title": "Zum Speichern",
+      "note": "Ein paar Grad machen den Unterschied",
+      "rows": [
+        {
+          "name": "Grüner Tee",
+          "temp": "70–80 °C"
+        },
+        {
+          "name": "Weißer Tee",
+          "temp": "75–85 °C"
+        },
+        {
+          "name": "Oolong",
+          "temp": "85–95 °C"
+        },
+        {
+          "name": "Roter Tee",
+          "temp": "90–100 °C"
+        },
+        {
+          "name": "Pu-Erh",
+          "temp": "95–100 °C"
+        }
+      ]
+    },
+    "approach": {
+      "script": "Jeder Tee hat sein Maß",
+      "more": "Mehr über uns"
+    },
+    "instagram": {
+      "script": "auf Instagram",
+      "follow": "Folgen",
+      "post": "Beitrag auf Instagram"
     }
   },
   "catalog": {

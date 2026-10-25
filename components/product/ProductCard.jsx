@@ -1,26 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { revealVariants } from "@/lib/motion";
 import { useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { PlaceholderArt } from "@/components/foundation/PlaceholderArt";
-import { Heading, BodyText } from "@/components/foundation/Typography";
 import { asTranslated, resolveTranslated } from "@/lib/types";
 import Image from "@/components/product/Image";
 import PriceTag from "@/components/product/PriceTag";
-
-const scrollRevealVariants = {
-  hidden: { opacity: 0, y: 24 },
-  visible: (i = 0) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.7,
-      ease: [0.22, 1, 0.36, 1],
-      delay: Math.min(i, 8) * 0.06,
-    },
-  }),
-};
 
 export function ProductCard({ product, index = 0 }) {
   const locale = useLocale();
@@ -33,7 +20,7 @@ export function ProductCard({ product, index = 0 }) {
 
   return (
     <motion.div
-      variants={scrollRevealVariants}
+      variants={revealVariants}
       initial="hidden"
       animate="visible"
       custom={index}
@@ -44,15 +31,11 @@ export function ProductCard({ product, index = 0 }) {
         ) : (
           <PlaceholderArt accentColor={product.accentColor} aspect="portrait" />
         )}
-        <div className="mt-5">
-          <Heading
-            as="h3"
-            size="sm"
-            className="transition-colors duration-300 group-hover:text-matcha"
-          >
+        <div className="mt-3 md:mt-4">
+          <h3 className="font-display text-xl font-medium leading-tight text-ink transition-colors duration-300 group-hover:text-matcha md:text-2xl">
             {name}
-          </Heading>
-          <BodyText className="mt-2">{shortDescription}</BodyText>
+          </h3>
+          <p className="mt-1 line-clamp-2 text-sm leading-snug text-stone">{shortDescription}</p>
           <div className="mt-2">
             <PriceTag product={product} locale={locale} />
           </div>

@@ -31,6 +31,30 @@
 }
 
 @layer components {
+  .heading-caps {
+    @apply font-display font-medium uppercase tracking-[0.1em] text-ink;
+  }
+
+  .script-accent {
+    @apply font-script leading-tight text-matcha;
+  }
+
+  .label-caps {
+    @apply text-xs font-normal uppercase tracking-[0.2em];
+  }
+
+  .btn-outline {
+    @apply label-caps inline-flex h-12 items-center justify-center gap-3 border px-6 transition-colors duration-300;
+  }
+
+  .btn-outline-light {
+    @apply btn-outline border-white/85 text-white hover:bg-white hover:text-ink;
+  }
+
+  .btn-outline-paper {
+    @apply btn-outline border-paper text-paper hover:bg-paper hover:text-forest;
+  }
+
   .label-eyebrow {
     @apply font-body text-xs uppercase tracking-widest text-stone;
   }

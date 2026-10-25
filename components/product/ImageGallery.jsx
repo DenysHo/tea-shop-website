@@ -2,14 +2,9 @@
 
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { gallerySlideTransition, gallerySlideVariants, thumbSpring } from "@/lib/motion";
 import { getDomainsImageUrl } from "@/lib/imageUrl";
 import { PlaceholderArt } from "@/components/foundation/PlaceholderArt";
-
-const slideVariants = {
-  enter: (dir) => ({ x: dir > 0 ? "25%" : "-25%", opacity: 0 }),
-  center: { x: 0, opacity: 1 },
-  exit: (dir) => ({ x: dir > 0 ? "-25%" : "25%", opacity: 0 }),
-};
 
 const SWIPE_THRESHOLD = 80;
 
@@ -98,14 +93,11 @@ export default function ImageGallery({
             src={getDomainsImageUrl(images[index])}
             alt={alt}
             custom={direction}
-            variants={slideVariants}
+            variants={gallerySlideVariants}
             initial="enter"
             animate="center"
             exit="exit"
-            transition={{
-              x: { type: "spring", stiffness: 300, damping: 32 },
-              opacity: { duration: 0.25 },
-            }}
+            transition={gallerySlideTransition}
             drag={count > 1 ? "x" : false}
             dragConstraints={{ left: 0, right: 0 }}
             dragElastic={0.25}
@@ -154,7 +146,7 @@ export default function ImageGallery({
                 <motion.span
                   layoutId={`${uid}-active-thumb`}
                   className="absolute inset-0 border-2 border-matcha"
-                  transition={{ type: "spring", stiffness: 400, damping: 32 }}
+                  transition={thumbSpring}
                 />
               )}
             </button>
