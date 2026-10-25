@@ -6,13 +6,17 @@ Built with Next.js 14, Tailwind, next-intl, Prisma + PostgreSQL. Product images 
 
 ## Running locally
 
-```bash
+````bash
 npm install
 cp .env.example .env
 npm run db:migrate
 npm run db:seed
 npm run dev
-```
+```Useful commands
+npx prisma migrate deploy   - create tables (apply migrations)
+npm run db:seed             - fill the database with test data
+npx prisma studio           - open the database in the browser
+````
 
 In `.env` you need the database URL, a `SESSION_SECRET` (32+ characters), the admin login and password, and the R2 keys if you want image uploads to work.
 

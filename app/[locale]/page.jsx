@@ -8,6 +8,7 @@ import { InstagramStrip } from "@/components/content/InstagramStrip";
 import { ProductGrid } from "@/components/product/ProductGrid";
 import { getFeaturedTeas } from "@/lib/services/teaService";
 import { getFeaturedTeawares } from "@/lib/services/teawareService";
+import { getInstagramPosts } from "@/lib/instagram";
 
 const SLIDES = [
   { image: "/hero/lake.jpg", position: "40% 50%", href: "/tea" },
@@ -68,9 +69,10 @@ export default async function HomePage({ params: { locale } }) {
   unstable_setRequestLocale(locale);
   const t = await getTranslations("home");
 
-  const [teas, teawares] = await Promise.all([
+  const [teas, teawares, instagramPosts] = await Promise.all([
     getFeaturedTeas(),
     getFeaturedTeawares(),
+    getInstagramPosts(),
   ]);
 
   const slides = t.raw("slider.slides").map((text, i) => ({
@@ -83,7 +85,10 @@ export default async function HomePage({ params: { locale } }) {
     <>
       <HeroSlider slides={slides} label={t("slider.label")} />
 
-      <CategoryButtons teaLabel={t("tea.title")} teawareLabel={t("teaware.title")} />
+      <CategoryButtons
+        teaLabel={t("tea.title")}
+        teawareLabel={t("teaware.title")}
+      />
 
       <ProductSection
         id="tea"
@@ -119,10 +124,16 @@ export default async function HomePage({ params: { locale } }) {
         />
 
         <div className="px-6 py-10 text-center md:py-0">
-          <p className="text-xs uppercase tracking-[0.24em] text-stone">{t("philosophy.eyebrow")}</p>
-          <h2 className="mt-4 font-display text-3xl leading-tight md:text-[40px]">{t("philosophy.title")}</h2>
+          <p className="text-xs uppercase tracking-[0.24em] text-stone">
+            {t("philosophy.eyebrow")}
+          </p>
+          <h2 className="mt-4 font-display text-3xl leading-tight md:text-[40px]">
+            {t("philosophy.title")}
+          </h2>
           <div className="mx-auto my-6 h-px w-14 bg-matcha" />
-          <p className="script-accent text-[28px] md:text-[34px]">{t("approach.script")}</p>
+          <p className="script-accent text-[28px] md:text-[34px]">
+            {t("approach.script")}
+          </p>
           <Link
             href="/philosophy"
             className="label-caps mt-5 inline-block py-2 hover:text-matcha"
@@ -137,6 +148,7 @@ export default async function HomePage({ params: { locale } }) {
           script={t("instagram.script")}
           follow={t("instagram.follow")}
           postLabel={t("instagram.post")}
+          posts={instagramPosts}
         />
       </div>
     </>
